@@ -6,12 +6,24 @@
 ICEBERG_VERSION=1.9.5
 GEN_DATE=`date +"%m-%d-%Y"`
 
+CDN_URL=https://raw.github.com/cgrayson/iceberg/master
+ICEBERG_JS=iceberg.js
+ICEBERG_CSS=iceberg.css
+
 if [ "$1" = "--html" ]
 then
   HTML=1
   shift
 else
   HTML=0
+fi
+
+if [ "$1" = "--local" ]
+then
+  shift
+else
+  ICEBERG_JS=${CDN_URL}/${ICEBERG_JS}
+  ICEBERG_CSS=${CDN_URL}/${ICEBERG_CSS}
 fi
 
 if [ -n "$1" ]
@@ -136,8 +148,8 @@ then
   <script src='http://code.jquery.com/jquery.min.js' type='text/javascript' charset='utf-8'></script>
   <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.1.1/js/bootstrap.min.js"></script>
   <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.1.1/css/bootstrap-combined.min.css" rel="stylesheet">
-  <script src='iceberg.js' type='text/javascript' charset='utf-8'></script>
-  <link href='iceberg.css' media='screen' rel='stylesheet' type='text/css' />
+  <script src="$ICEBERG_JS" type='text/javascript' charset='utf-8'></script>
+  <link href="$ICEBERG_CSS" rel='stylesheet' />
   <title>Iceberg: $ROOT</title>
   </head><body>
 
