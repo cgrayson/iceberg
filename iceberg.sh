@@ -3,10 +3,10 @@
 #
 # (c) Chris Grayson
 #
-ICEBERG_VERSION=1.9.5
+ICEBERG_VERSION=1.9.6
 GEN_DATE=`date +"%m-%d-%Y"`
 
-CDN_URL=https://raw.github.com/cgrayson/iceberg/master
+CDN_URL=http://cgrayson.github.com/iceberg
 ICEBERG_JS=iceberg.js
 ICEBERG_CSS=iceberg.css
 
@@ -22,8 +22,8 @@ if [ "$1" = "--local" ]
 then
   shift
 else
-  ICEBERG_JS=${CDN_URL}/${ICEBERG_JS}
-  ICEBERG_CSS=${CDN_URL}/${ICEBERG_CSS}
+  ICEBERG_JS=${CDN_URL}/javascripts/${ICEBERG_JS}
+  ICEBERG_CSS=${CDN_URL}/stylesheets/${ICEBERG_CSS}
 fi
 
 if [ -n "$1" ]
@@ -164,7 +164,7 @@ then
     <button class="btn" id="btn100gb">100 GB</button>
   </div>
 
-  <div id="about">generated on $GEN_DATE by <a href="https://github.com/cgrayson/iceberg">Iceberg v.${ICEBERG_VERSION}</a></div>
+  <div id="about">generated on $GEN_DATE by <a href="http://cgrayson.github.com/iceberg/">Iceberg v.${ICEBERG_VERSION}</a></div>
   <div id="loading" class="label">Loading...</div>
 
   <div id='folders'>
