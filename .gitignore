@@ -2,3 +2,4 @@
 bootstrap/
 jquery.js
 output/
+*/.DS_Store

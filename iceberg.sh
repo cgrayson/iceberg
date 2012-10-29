@@ -152,7 +152,7 @@ then
     <button class="btn" id="btn100gb">100 GB</button>
   </div>
 
-  <div id="about">generated on $GEN_DATE by <a href="">Iceberg v.${ICEBERG_VERSION}</a></div>
+  <div id="about">generated on $GEN_DATE by <a href="https://github.com/cgrayson/iceberg">Iceberg v.${ICEBERG_VERSION}</a></div>
   <div id="loading" class="label">Loading...</div>
 
   <div id='folders'>
