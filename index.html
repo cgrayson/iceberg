@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Iceberg by cgrayson</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Iceberg</h1>
+        <p>Find the big directories lurking on your disk</p>
+        <p class="view"><a href="https://github.com/cgrayson/iceberg">View the Project on GitHub <small>cgrayson/iceberg</small></a></p>
+        <ul>
+          <li><a href="https://github.com/cgrayson/iceberg/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/cgrayson/iceberg/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/cgrayson/iceberg">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>iceberg</h1>
+
+<h2>Find the big directories lurking on your disk</h2>
+
+<h3>Introduction</h3>
+
+<p>Iceberg is an updated incarnation of an amazingly useful tool, originally written in Java, that
+ makes it easy to find the big directories that are wasting space on your disks.</p>
+
+<p>This version has two parts: a bash script that generates an interactive HTML disk report, and the
+JavaScript and CSS that give it its interactivity. Bootstrap and jQuery are also used, but are
+loaded from CDNs and so aren't included here.</p>
+
+<p>This functionality has proved useful again and again, not only on my Mac laptop, but also on the
+various Linux machines I work with. That's why the HTML generation is done by a bash script, it
+seemed like a good choice for lowest-common denominator in those *nix environments. Usage on
+remote servers, which you may or may not have a GUI for, is also the reason for splitting the
+report-generation part from the report-viewing part. Generate the HTML on your remote machine,
+download it to your local PC, and pop it open in the browser of your choice.</p>
+
+<h3>Usage</h3>
+
+<ol>
+<li>
+<p>Invoke the bash script, specifying HTML output and the directory to report on, saving the
+output to a file:</p>
+
+<p><code>iceberg.sh --html ~/Movies &gt; iceberg_movies.html</code></p>
+</li>
+<li><p>Open the HTML file in your browser (after downloading it to your PC if necessary).</p></li>
+<li><p>By default, directories that are 1GB or larger are highlighted in red. To change that threshold,
+click a size button at the top of the window.</p></li>
+<li><p>Click on folder/directory buttons to expand them and see their subdirectories. Directories
+with no subdirectories cannot be expanded (those buttons are deactivated).</p></li>
+<li><p>Find those directories with old backups, unneeded downloads, etc. that are wasting your disk space,
+and go clean them up.</p></li>
+<li><p>Repeat as desired. Remember, the HTML report is a static file. If you add or delete files,
+you'll need to re-run the bash script, and refresh your browser.</p></li>
+</ol><p><img src="https://raw.github.com/cgrayson/iceberg/master/doc/screenshot.jpg" alt="ScreenShot"></p>
+
+<h3>Issues</h3>
+
+<ul>
+<li>Windows compatibility - There is none, currently. Maybe this would work under cygwin, but I
+haven't tried that yet.</li>
+<li>HTML generation speed - I've tried to make this fast, and it's come a long way from my first
+brute-force approach. But it can still take a long time on a filesystem with lots of subdirectories.
+(Note that especially large files or directories are no problem; it's the number of directories
+that matters.) For example, generating the 17MB report for my laptop's home directory takes
+about 10 minutes.</li>
+<li>HTML processing speed - I've tried to make the JavaScript controls fast, too. But for large
+report files, the rendering and processing may be slow. For example, that 17MB report for my
+laptop's home directory takes about 8 seconds to load.</li>
+</ul>
+      </section>
+    </div>
+    <footer>
+      <p>Project maintained by <a href="https://github.com/cgrayson">cgrayson</a></p>
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
