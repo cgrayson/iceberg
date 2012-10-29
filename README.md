@@ -22,7 +22,8 @@ download it to your local PC, and pop it open in the browser of your choice.
 1. Invoke the bash script, specifying HTML output and the directory to report on, saving the
 output to a file:
 
-    iceberg.sh --html ~/Movies > iceberg_movies.html
+    `iceberg.sh --html ~/Movies > iceberg_movies.html`
+    
 2. Open the HTML file in your browser (after downloading it to your PC if necessary).
 3. By default, directories that are 1GB or larger are highlighted in red. To change that threshold,
 click a size button at the top of the window.
