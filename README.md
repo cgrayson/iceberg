@@ -17,3 +17,42 @@ about 10 minutes.
 * HTML processing speed - I've tried to make the JavaScript controls fast, too. But for large
 report files, the rendering and processing may be slow. For example, that 17MB report for my
 laptop's home directory takes about 8 seconds to load.
+
+### Implementation
+
+If you dig into the bash script, you'll see that all it basically does is translate output from the
+Unix command `du` into HTML. `du` is fast; translating that text output is the slower part by far.
+For the 110k directories under my laptop's home directory, `du` by itself takes about 40 seconds, while
+the other 9+ minutes is cranking out the HTML.
+
+### Other Generators
+
+Want to make this thing faster? Want to make it work on more platforms (*cough* Windows *cough*)?
+Handy with Perl, PHP, Ruby, C, etc.? Give it a shot, let me know, and I'll gladly include it here. For
+the JavaScript and CSS to work, you'll just need to follow this structure in your generated HTML, with
+the whole thing wrapped in the boilerplate the bash script uses:
+
+```html
+  <div class='folder'>
+    <button class='btn btn-small enabled'><i class='icon-folder-close'></i></button>
+    <span class='size'>5.0G</span> Root-Level Directory
+  </div>
+  <div class='child'>
+    <div class='folder'>
+      <button class='btn btn-small disabled'><i class='icon-folder-close'></i></button>
+      <span class='size'>8.0K</span> 2nd Level Directory, no subfolders
+    </div>
+    <div class='folder'>
+      <button class='btn btn-small enabled'><i class='icon-folder-close'></i></button>
+      <span class='size'>6.7M</span> Another 2nd Level Directory, with subfolders
+    </div>
+    <div class='child'>
+      <div class='folder'>
+        <button class='btn btn-small enabled'><i class='icon-folder-close'></i></button>
+        <span class='size'>900K</span> 3rd Level Directory, with subfolders
+      </div>
+
+      <!-- etc. -->
+    </div>
+  </div>
+```
