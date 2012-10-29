@@ -1,0 +1,49 @@
+body {
+  font-family: "Courier New", monospace;
+  font-size: 12px;
+}
+
+#about {
+  clear: both;
+  color: gray;
+  float: right;
+  font-family: Helvetica, arial, sans-serif;
+  font-size: smaller;
+  padding: 1em 1em 0 0;
+}
+
+#about a {
+  color: gray;
+  text-decoration: underline;
+}
+
+#size-buttons {
+  clear: both;
+  float: right;
+}
+
+#loading {
+  clear: right;
+  float: right;
+  margin-top: 1em;
+  padding: 5px 15px;
+}
+
+.filebrowser {
+  background-color: #f0f0f0;
+  border: solid #aaa 1px;
+  margin: 1em auto;
+  min-height: 9em;
+  padding: 1em 3em;
+  width: 70%;
+}
+
+.filebrowser button {
+  margin: 3px 0;
+  padding-left: 1em;
+}
+
+.child {
+  display: none; /* hide all child elements to start */
+  padding-left: 3em;
+}
