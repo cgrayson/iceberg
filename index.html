@@ -29,14 +29,14 @@
 
 <h1>Introduction</h1>
 
-<p>Iceberg is an updated incarnation of an amazingly useful tool, originally written in Java, that
+<p>Iceberg is the updated incarnation of a surprisngly useful tool that I originally wrote in Java, which
  makes it easy to find the big directories that are wasting space on your disks.</p>
 
 <p>This version has two parts: a bash script that generates an interactive HTML disk report, and the
 JavaScript and CSS that give it its interactivity. Bootstrap and jQuery are also used, but are
 loaded from CDNs and so aren't included here.</p>
 
-<p>This functionality has proved useful again and again, not only on my Mac laptop, but also on the
+<p>This functionality has proved useful time and time again, not only on my Mac laptop, but also on the
 various Linux machines I work with. That's why the HTML generation is done by a bash script, it
 seemed like a good choice for lowest-common denominator in those *nix environments. Usage on
 remote servers, which you may or may not have a GUI for, is also the reason for splitting the
@@ -73,17 +73,26 @@ you'll need to re-run the bash script, and refresh your browser.</p></li>
 <h1>Issues</h1>
 
 <ul>
-<li>Windows compatibility - There is none, currently. Maybe this would work under cygwin, but I
+<li><strong>Windows compatibility</strong> - There is none, currently. Maybe this would work under cygwin, but I
 haven't tried that yet.</li>
-<li>HTML generation speed - I've tried to make this fast, and it's come a long way from my first
+<li><strong>HTML generation speed</strong> - I've tried to make this fast, and it's come a long way from my first
 brute-force approach. But it can still take a long time on a filesystem with lots of subdirectories.
 (Note that especially large files or directories are no problem; it's the number of directories
 that matters.) For example, generating the report for the approximately 110,000 directories
 under my laptop's home directory takes about 10 minutes, and creates a 17MB HTML file.</li>
-<li>HTML processing speed - I've tried to make the JavaScript controls fast, too. But for large
+<li><strong>HTML processing speed</strong> - I've tried to make the JavaScript controls fast, too. But for large
 report files, the rendering and processing may be slow. For example, that 17MB report for my
 laptop's home directory takes about 8 seconds to load.</li>
 </ul>
+
+<h1>Feedback</h1>
+<p>
+  Questions, problems, or suggestions? If you're on GitHub, then you can open an issue, fork, etc.
+  from the <a href="https://github.com/cgrayson/iceberg">project page there</a>. If you're a normal
+  person, your best bet is probably to contact me on Twitter at
+  <a href="https://twitter.com/cgrayson">@cgrayson</a>.
+</p>
+
     </section>
     </div>
     <footer>
