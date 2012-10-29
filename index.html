@@ -21,7 +21,7 @@
         <p>Find the big directories lurking on your disk</p>
         <p class="view"><a href="https://github.com/cgrayson/iceberg">View the Project on GitHub <small>cgrayson/iceberg</small></a></p>
         <ul>
-          <li><a href="https://raw.github.com/cgrayson/iceberg/master/iceberg.sh">Download <strong>Bash script</strong></a></li>
+          <li><a href="http://cgrayson.github.com/iceberg/iceberg.sh">Download <strong>Bash script</strong></a></li>
           <li><a href="https://github.com/cgrayson/iceberg">View On <strong>GitHub</strong></a></li>
         </ul>
       </header>
@@ -43,25 +43,32 @@ remote servers, which you may or may not have a GUI for, is also the reason for 
 report-generation part from the report-viewing part. Generate the HTML on your remote machine,
 download it to your local PC, and pop it open in the browser of your choice.</p>
 
-<h1>Usage</h1>
+<h1>Intallation & Usage</h1>
 
 <ol>
+<li><p>Download the script: <a href="iceberg.sh">iceberg.sh</a>.</p></li>
+<li><p>Make it executable:</p>
+  <p><code>chmod +x iceberg.sh</code></p>
+</li>
 <li>
 <p>Invoke the bash script, specifying HTML output and the directory to report on, saving the
 output to a file:</p>
 
 <p><code>iceberg.sh --html ~/Movies &gt; iceberg_movies.html</code></p>
 </li>
-<li><p>Open the HTML file in your browser (after downloading it to your PC if necessary).</p></li>
-<li><p>By default, directories that are 1GB or larger are highlighted in red. To change that threshold,
-click a size button at the top of the window.</p></li>
+<li><p>Open the HTML file in your browser (after downloading it to your PC if necessary).
+It will look something like this:</p>
+<p><img src="images/screenshot-movies.png" width="600" height="276" alt="Screenshot"></p>
+</li>
+<li><p>The page starts with directories 1GB or larger highlighted in red. Change that threshold
+with the size buttons at the top of the window.</p></li>
 <li><p>Click on folder/directory buttons to expand them and see their subdirectories. Directories
 with no subdirectories cannot be expanded (those buttons are deactivated).</p></li>
 <li><p>Find those directories with old backups, unneeded downloads, etc. that are wasting your disk space,
 and go clean them up.</p></li>
 <li><p>Repeat as desired. Remember, the HTML report is a static file. If you add or delete files,
 you'll need to re-run the bash script, and refresh your browser.</p></li>
-</ol><p><img src="images/screenshot-movies.png" width="600" height="276" alt="Screenshot"></p>
+</ol>
 
 <h1>Issues</h1>
 
@@ -71,8 +78,8 @@ haven't tried that yet.</li>
 <li>HTML generation speed - I've tried to make this fast, and it's come a long way from my first
 brute-force approach. But it can still take a long time on a filesystem with lots of subdirectories.
 (Note that especially large files or directories are no problem; it's the number of directories
-that matters.) For example, generating the 17MB report for my laptop's home directory takes
-about 10 minutes.</li>
+that matters.) For example, generating the report for the approximately 110,000 directories
+under my laptop's home directory takes about 10 minutes, and creates a 17MB HTML file.</li>
 <li>HTML processing speed - I've tried to make the JavaScript controls fast, too. But for large
 report files, the rendering and processing may be slow. For example, that 17MB report for my
 laptop's home directory takes about 8 seconds to load.</li>
