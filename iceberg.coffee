@@ -22,8 +22,8 @@ $ ->
     toggle_label $(this)
     highlight_big_folders(SIZE_BUTTONS[$('#size-buttons .btn.active').attr('id')], subfolder)
 
-  # show first level of hierarchy
-  $('.filebrowser .child').first().toggle()
+  # open folder at first level of hierarchy
+  $('#folders > .folder > button').click()
 
   # highlight big folders for default size
   highlight_big_folders(SIZE_BUTTONS['btn1gb'])

@@ -3,28 +3,57 @@
 #
 # (c) Chris Grayson
 #
-ICEBERG_VERSION=1.9.6
+ICEBERG_VERSION=1.9.7
+USAGE="$0: Usage: $0 [ -d du_input_filename | -l (use local JavaScript) | -p (plain text output) | -t tmp_dir ]"
 GEN_DATE=`date +"%m-%d-%Y"`
 
 CDN_URL=http://cgrayson.github.com/iceberg
-ICEBERG_JS=iceberg.js
-ICEBERG_CSS=iceberg.css
+ICEBERG_JS_FILE=iceberg.js
+ICEBERG_CSS_FILE=iceberg.css
+ICEBERG_JS=${CDN_URL}/javascripts/${ICEBERG_JS_FILE}
+ICEBERG_CSS=${CDN_URL}/stylesheets/${ICEBERG_CSS_FILE}
+num_divs=0
 
-if [ "$1" = "--html" ]
-then
-  HTML=1
-  shift
-else
-  HTML=0
-fi
+ICEBERG_INPUT_FILE="iceberg_input.txt"
+ICEBERG_TEMP_FILE="iceberg_input.tmp"
+DU_INPUT_FILE=""
+HTML=1
+TMPDIR="."
 
-if [ "$1" = "--local" ]
-then
-  shift
-else
-  ICEBERG_JS=${CDN_URL}/javascripts/${ICEBERG_JS}
-  ICEBERG_CSS=${CDN_URL}/stylesheets/${ICEBERG_CSS}
-fi
+while getopts ":d:lpt:" option
+do
+  case $option in
+    d ) DU_INPUT_FILE="$OPTARG"
+      if [ ! -f "$DU_INPUT_FILE" ]
+      then
+        echo "Error: du input file '$DU_INPUT_FILE' not found"
+        echo "$USAGE"
+        exit 3
+      fi
+      ;;
+    l ) # Use local JavaScript & CSS (developer use)
+      ICEBERG_JS=$ICEBERG_JS_FILE
+      ICEBERG_CSS=$ICEBERG_CSS_FILE
+      ;;
+    p ) HTML=0
+      ;;
+    t ) TMPDIR="$OPTARG"
+      if [ ! -d "$TMPDIR" ]
+      then
+        echo "Error: tmp dir '$TMPDIR' not found"
+        echo "$USAGE"
+        exit 3
+      fi
+      ;;
+    * ) echo "Unknown option $option"
+        echo $USAGE
+        exit 3
+      ;;
+  esac
+done
+
+# shift past all dash-options
+shift $(($OPTIND - 1))
 
 if [ -n "$1" ]
 then
@@ -34,14 +63,39 @@ else
 	ROOT="."
 fi
 
-if [ -n "$1" ]
+if [ ! -d "$ROOT" ]
 then
-	MAXDEPTH=$1
-else
-	MAXDEPTH=999999
+  echo "Error: root dir '$ROOT' not found"
+  echo $USAGE
+  exit 4
 fi
 
-num_divs=0
+create_input_file() {
+  if [ -z "$DU_INPUT_FILE" ]
+  then
+    DU_INPUT_FILE="$TMPDIR/$ICEBERG_TEMP_FILE"
+    du -h "$ROOT" > $DU_INPUT_FILE
+    RM_DU_INPUT=1 # clean up this tmp file later (only if not provided by user)
+  fi
+
+  # wish I knew how to use a variable to pipe commands to...
+  echo "reverse utility test" | tail -r > /dev/null 2>&1
+  if [ $? -eq 0 ]
+  then
+    cat "$DU_INPUT_FILE" | tail -r > "$ICEBERG_INPUT_FILE"
+  else
+    echo "reverse utility test" | tac > /dev/null 2>&1
+    if [ $? -eq 0 ]
+    then
+      cat "$DU_INPUT_FILE" | tac > "$ICEBERG_INPUT_FILE"
+    fi
+  fi
+
+  if [ "$RM_DU_INPUT" = 1 ]
+  then
+    rm "$DU_INPUT_FILE"
+  fi
+}
 
 indent() {
 	# save up to 35% in filesize by skipping indentation in HTML output
@@ -103,7 +157,9 @@ dirsize() {
 	prevrec='xxx'
 	prevlevel=-1
 
-	for rec in `du -h $ROOT| tail -r`
+  create_input_file
+
+	for rec in `cat $ICEBERG_INPUT_FILE`
 	do
 		levelstr1="${rec##*[	]}"          # get the 2nd field, from the leftmost tab to EOL
 		levelstr2="${levelstr1//[^\/]/}"   # remove all characters but the "/"s
@@ -136,6 +192,8 @@ dirsize() {
 	do
 		endrows 9 8
 	done
+
+	rm "$ICEBERG_INPUT_FILE"
 }
 
 if [ "$HTML" -eq 1 ]

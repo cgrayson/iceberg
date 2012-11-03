@@ -1,0 +1,2685 @@
+  0B	linux/.git/branches
+ 36K	linux/.git/hooks
+4.0K	linux/.git/info
+4.0K	linux/.git/logs/refs/heads
+4.0K	linux/.git/logs/refs
+8.0K	linux/.git/logs
+  0B	linux/.git/objects/info
+706M	linux/.git/objects/pack
+706M	linux/.git/objects
+4.0K	linux/.git/refs/heads
+4.0K	linux/.git/refs/remotes/origin
+4.0K	linux/.git/refs/remotes
+  0B	linux/.git/refs/tags
+8.0K	linux/.git/refs
+710M	linux/.git
+ 12K	linux/arch/alpha/boot/tools
+ 64K	linux/arch/alpha/boot
+812K	linux/arch/alpha/include/asm
+4.0K	linux/arch/alpha/include/uapi/asm
+4.0K	linux/arch/alpha/include/uapi
+816K	linux/arch/alpha/include
+1016K	linux/arch/alpha/kernel
+296K	linux/arch/alpha/lib
+ 24K	linux/arch/alpha/math-emu
+ 40K	linux/arch/alpha/mm
+ 40K	linux/arch/alpha/oprofile
+2.3M	linux/arch/alpha
+ 20K	linux/arch/arm/boot/bootp
+152K	linux/arch/arm/boot/compressed
+8.0K	linux/arch/arm/boot/dts/testcases
+1.2M	linux/arch/arm/boot/dts
+1.3M	linux/arch/arm/boot
+160K	linux/arch/arm/common
+640K	linux/arch/arm/configs
+ 64K	linux/arch/arm/crypto
+184K	linux/arch/arm/include/asm/hardware
+ 48K	linux/arch/arm/include/asm/mach
+ 20K	linux/arch/arm/include/asm/xen
+988K	linux/arch/arm/include/asm
+ 28K	linux/arch/arm/include/debug
+ 84K	linux/arch/arm/include/uapi/asm
+ 84K	linux/arch/arm/include/uapi
+1.1M	linux/arch/arm/include
+1.0M	linux/arch/arm/kernel
+248K	linux/arch/arm/lib
+272K	linux/arch/arm/mach-at91/include/mach
+272K	linux/arch/arm/mach-at91/include
+1.0M	linux/arch/arm/mach-at91
+ 16K	linux/arch/arm/mach-bcm2835/include/mach
+ 16K	linux/arch/arm/mach-bcm2835/include
+ 28K	linux/arch/arm/mach-bcm2835
+ 48K	linux/arch/arm/mach-clps711x/include/mach
+ 48K	linux/arch/arm/mach-clps711x/include
+104K	linux/arch/arm/mach-clps711x
+ 48K	linux/arch/arm/mach-cns3xxx/include/mach
+ 48K	linux/arch/arm/mach-cns3xxx/include
+104K	linux/arch/arm/mach-cns3xxx
+148K	linux/arch/arm/mach-davinci/include/mach
+148K	linux/arch/arm/mach-davinci/include
+788K	linux/arch/arm/mach-davinci
+ 40K	linux/arch/arm/mach-dove/include/mach
+ 40K	linux/arch/arm/mach-dove/include
+108K	linux/arch/arm/mach-dove
+ 32K	linux/arch/arm/mach-ebsa110/include/mach
+ 32K	linux/arch/arm/mach-ebsa110/include
+ 68K	linux/arch/arm/mach-ebsa110
+ 40K	linux/arch/arm/mach-ep93xx/include/mach
+ 40K	linux/arch/arm/mach-ep93xx/include
+192K	linux/arch/arm/mach-ep93xx
+152K	linux/arch/arm/mach-exynos/include/mach
+152K	linux/arch/arm/mach-exynos/include
+636K	linux/arch/arm/mach-exynos
+ 36K	linux/arch/arm/mach-footbridge/include/mach
+ 36K	linux/arch/arm/mach-footbridge/include
+144K	linux/arch/arm/mach-footbridge
+ 44K	linux/arch/arm/mach-gemini/include/mach
+ 44K	linux/arch/arm/mach-gemini/include
+104K	linux/arch/arm/mach-gemini
+ 48K	linux/arch/arm/mach-h720x/include/mach
+ 48K	linux/arch/arm/mach-h720x/include
+ 92K	linux/arch/arm/mach-h720x
+ 48K	linux/arch/arm/mach-highbank
+4.0K	linux/arch/arm/mach-imx/include/mach
+4.0K	linux/arch/arm/mach-imx/include
+936K	linux/arch/arm/mach-imx
+ 56K	linux/arch/arm/mach-integrator/include/mach
+ 56K	linux/arch/arm/mach-integrator/include
+164K	linux/arch/arm/mach-integrator
+ 92K	linux/arch/arm/mach-iop13xx/include/mach
+ 92K	linux/arch/arm/mach-iop13xx/include
+188K	linux/arch/arm/mach-iop13xx
+ 56K	linux/arch/arm/mach-iop32x/include/mach
+ 56K	linux/arch/arm/mach-iop32x/include
+112K	linux/arch/arm/mach-iop32x
+ 48K	linux/arch/arm/mach-iop33x/include/mach
+ 48K	linux/arch/arm/mach-iop33x/include
+ 76K	linux/arch/arm/mach-iop33x
+100K	linux/arch/arm/mach-ixp4xx/include/mach
+100K	linux/arch/arm/mach-ixp4xx/include
+332K	linux/arch/arm/mach-ixp4xx
+ 36K	linux/arch/arm/mach-kirkwood/include/mach
+ 36K	linux/arch/arm/mach-kirkwood/include
+276K	linux/arch/arm/mach-kirkwood
+ 84K	linux/arch/arm/mach-ks8695/include/mach
+ 84K	linux/arch/arm/mach-ks8695/include
+168K	linux/arch/arm/mach-ks8695
+4.0K	linux/arch/arm/mach-l7200/include/mach
+4.0K	linux/arch/arm/mach-l7200/include
+4.0K	linux/arch/arm/mach-l7200
+ 68K	linux/arch/arm/mach-lpc32xx/include/mach
+ 68K	linux/arch/arm/mach-lpc32xx/include
+180K	linux/arch/arm/mach-lpc32xx
+152K	linux/arch/arm/mach-mmp/include/mach
+152K	linux/arch/arm/mach-mmp/include
+328K	linux/arch/arm/mach-mmp
+208K	linux/arch/arm/mach-msm/include/mach
+208K	linux/arch/arm/mach-msm/include
+588K	linux/arch/arm/mach-msm
+ 40K	linux/arch/arm/mach-mv78xx0/include/mach
+ 40K	linux/arch/arm/mach-mv78xx0/include
+112K	linux/arch/arm/mach-mv78xx0
+4.0K	linux/arch/arm/mach-mvebu/include/mach
+4.0K	linux/arch/arm/mach-mvebu/include
+ 36K	linux/arch/arm/mach-mvebu
+ 44K	linux/arch/arm/mach-mxs/include/mach
+ 44K	linux/arch/arm/mach-mxs/include
+100K	linux/arch/arm/mach-mxs
+ 52K	linux/arch/arm/mach-netx/include/mach
+ 52K	linux/arch/arm/mach-netx/include
+124K	linux/arch/arm/mach-netx
+ 28K	linux/arch/arm/mach-nomadik/include/mach
+ 28K	linux/arch/arm/mach-nomadik/include
+ 68K	linux/arch/arm/mach-nomadik
+132K	linux/arch/arm/mach-omap1/include/mach
+132K	linux/arch/arm/mach-omap1/include
+668K	linux/arch/arm/mach-omap1
+ 36K	linux/arch/arm/mach-omap2/include/mach
+ 36K	linux/arch/arm/mach-omap2/include
+3.7M	linux/arch/arm/mach-omap2
+ 36K	linux/arch/arm/mach-orion5x/include/mach
+ 36K	linux/arch/arm/mach-orion5x/include
+332K	linux/arch/arm/mach-orion5x
+ 16K	linux/arch/arm/mach-picoxcell
+ 36K	linux/arch/arm/mach-prima2/include/mach
+ 36K	linux/arch/arm/mach-prima2/include
+ 96K	linux/arch/arm/mach-prima2
+536K	linux/arch/arm/mach-pxa/include/mach
+536K	linux/arch/arm/mach-pxa/include
+1.7M	linux/arch/arm/mach-pxa
+104K	linux/arch/arm/mach-realview/include/mach
+104K	linux/arch/arm/mach-realview/include
+204K	linux/arch/arm/mach-realview
+ 44K	linux/arch/arm/mach-rpc/include/mach
+ 44K	linux/arch/arm/mach-rpc/include
+116K	linux/arch/arm/mach-rpc
+ 16K	linux/arch/arm/mach-s3c2410
+ 20K	linux/arch/arm/mach-s3c2412
+ 32K	linux/arch/arm/mach-s3c2440
+240K	linux/arch/arm/mach-s3c24xx/include/mach
+240K	linux/arch/arm/mach-s3c24xx/include
+792K	linux/arch/arm/mach-s3c24xx
+ 92K	linux/arch/arm/mach-s3c64xx/include/mach
+ 92K	linux/arch/arm/mach-s3c64xx/include
+364K	linux/arch/arm/mach-s3c64xx
+ 72K	linux/arch/arm/mach-s5p64x0/include/mach
+ 72K	linux/arch/arm/mach-s5p64x0/include
+216K	linux/arch/arm/mach-s5p64x0
+ 56K	linux/arch/arm/mach-s5pc100/include/mach
+ 56K	linux/arch/arm/mach-s5pc100/include
+160K	linux/arch/arm/mach-s5pc100
+ 80K	linux/arch/arm/mach-s5pv210/include/mach
+ 80K	linux/arch/arm/mach-s5pv210/include
+268K	linux/arch/arm/mach-s5pv210
+224K	linux/arch/arm/mach-sa1100/include/mach
+224K	linux/arch/arm/mach-sa1100/include
+452K	linux/arch/arm/mach-sa1100
+ 36K	linux/arch/arm/mach-shark/include/mach
+ 36K	linux/arch/arm/mach-shark/include
+ 64K	linux/arch/arm/mach-shark
+204K	linux/arch/arm/mach-shmobile/include/mach
+204K	linux/arch/arm/mach-shmobile/include
+1.3M	linux/arch/arm/mach-shmobile
+ 12K	linux/arch/arm/mach-socfpga
+ 32K	linux/arch/arm/mach-spear13xx/include/mach
+ 32K	linux/arch/arm/mach-spear13xx/include
+ 76K	linux/arch/arm/mach-spear13xx
+ 32K	linux/arch/arm/mach-spear3xx/include/mach
+ 32K	linux/arch/arm/mach-spear3xx/include
+ 84K	linux/arch/arm/mach-spear3xx
+ 32K	linux/arch/arm/mach-spear6xx/include/mach
+ 32K	linux/arch/arm/mach-spear6xx/include
+ 56K	linux/arch/arm/mach-spear6xx
+ 56K	linux/arch/arm/mach-tegra/include/mach
+ 56K	linux/arch/arm/mach-tegra/include
+464K	linux/arch/arm/mach-tegra
+ 68K	linux/arch/arm/mach-u300/include/mach
+ 68K	linux/arch/arm/mach-u300/include
+200K	linux/arch/arm/mach-u300
+ 56K	linux/arch/arm/mach-ux500/include/mach
+ 56K	linux/arch/arm/mach-ux500/include
+292K	linux/arch/arm/mach-ux500
+ 48K	linux/arch/arm/mach-versatile/include/mach
+ 48K	linux/arch/arm/mach-versatile/include
+112K	linux/arch/arm/mach-versatile
+ 20K	linux/arch/arm/mach-vexpress/include/mach
+ 20K	linux/arch/arm/mach-vexpress/include
+ 72K	linux/arch/arm/mach-vexpress
+ 32K	linux/arch/arm/mach-vt8500/include/mach
+ 32K	linux/arch/arm/mach-vt8500/include
+ 68K	linux/arch/arm/mach-vt8500
+ 72K	linux/arch/arm/mach-w90x900/include/mach
+ 72K	linux/arch/arm/mach-w90x900/include
+188K	linux/arch/arm/mach-w90x900
+ 32K	linux/arch/arm/mach-zynq/include/mach
+ 32K	linux/arch/arm/mach-zynq/include
+ 60K	linux/arch/arm/mach-zynq
+776K	linux/arch/arm/mm
+ 36K	linux/arch/arm/net
+304K	linux/arch/arm/nwfpe
+8.0K	linux/arch/arm/oprofile
+ 56K	linux/arch/arm/plat-iop
+136K	linux/arch/arm/plat-mxc/devices
+580K	linux/arch/arm/plat-mxc/include/mach
+580K	linux/arch/arm/plat-mxc/include
+828K	linux/arch/arm/plat-mxc
+ 24K	linux/arch/arm/plat-nomadik/include/plat
+ 24K	linux/arch/arm/plat-nomadik/include
+ 40K	linux/arch/arm/plat-nomadik
+252K	linux/arch/arm/plat-omap/include/plat
+252K	linux/arch/arm/plat-omap/include
+452K	linux/arch/arm/plat-omap
+ 32K	linux/arch/arm/plat-orion/include/plat
+ 32K	linux/arch/arm/plat-orion/include
+108K	linux/arch/arm/plat-orion
+ 16K	linux/arch/arm/plat-pxa/include/plat
+ 16K	linux/arch/arm/plat-pxa/include
+ 52K	linux/arch/arm/plat-pxa
+128K	linux/arch/arm/plat-s3c24xx
+384K	linux/arch/arm/plat-samsung/include/plat
+384K	linux/arch/arm/plat-samsung/include
+636K	linux/arch/arm/plat-samsung
+ 20K	linux/arch/arm/plat-spear/include/plat
+ 20K	linux/arch/arm/plat-spear/include
+ 48K	linux/arch/arm/plat-spear
+ 20K	linux/arch/arm/plat-versatile/include/plat
+ 20K	linux/arch/arm/plat-versatile/include
+ 60K	linux/arch/arm/plat-versatile
+ 60K	linux/arch/arm/tools
+120K	linux/arch/arm/vfp
+ 20K	linux/arch/arm/xen
+ 27M	linux/arch/arm
+ 12K	linux/arch/arm64/boot
+4.0K	linux/arch/arm64/configs
+356K	linux/arch/arm64/include/asm
+ 60K	linux/arch/arm64/include/uapi/asm
+ 60K	linux/arch/arm64/include/uapi
+416K	linux/arch/arm64/include
+ 36K	linux/arch/arm64/kernel/vdso
+332K	linux/arch/arm64/kernel
+ 44K	linux/arch/arm64/lib
+108K	linux/arch/arm64/mm
+932K	linux/arch/arm64
+ 48K	linux/arch/avr32/boards/atngw100
+ 36K	linux/arch/avr32/boards/atstk1000
+ 20K	linux/arch/avr32/boards/favr-32
+ 32K	linux/arch/avr32/boards/hammerhead
+ 32K	linux/arch/avr32/boards/merisc
+ 20K	linux/arch/avr32/boards/mimc200
+188K	linux/arch/avr32/boards
+8.0K	linux/arch/avr32/boot/images
+ 12K	linux/arch/avr32/boot/u-boot
+ 20K	linux/arch/avr32/boot
+ 60K	linux/arch/avr32/configs
+4.0K	linux/arch/avr32/include/asm/mach
+372K	linux/arch/avr32/include/asm
+140K	linux/arch/avr32/include/uapi/asm
+140K	linux/arch/avr32/include/uapi
+512K	linux/arch/avr32/include
+172K	linux/arch/avr32/kernel
+ 80K	linux/arch/avr32/lib
+ 64K	linux/arch/avr32/mach-at32ap/include/mach
+ 64K	linux/arch/avr32/mach-at32ap/include
+240K	linux/arch/avr32/mach-at32ap
+ 52K	linux/arch/avr32/mm
+ 16K	linux/arch/avr32/oprofile
+1.3M	linux/arch/avr32
+ 12K	linux/arch/blackfin/boot
+136K	linux/arch/blackfin/configs
+688K	linux/arch/blackfin/include/asm
+ 48K	linux/arch/blackfin/include/mach-common
+4.0K	linux/arch/blackfin/include/uapi/asm
+4.0K	linux/arch/blackfin/include/uapi
+740K	linux/arch/blackfin/include
+ 20K	linux/arch/blackfin/kernel/cplb-mpu
+ 20K	linux/arch/blackfin/kernel/cplb-nompu
+452K	linux/arch/blackfin/kernel
+104K	linux/arch/blackfin/lib
+ 48K	linux/arch/blackfin/mach-bf518/boards
+276K	linux/arch/blackfin/mach-bf518/include/mach
+276K	linux/arch/blackfin/mach-bf518/include
+344K	linux/arch/blackfin/mach-bf518
+136K	linux/arch/blackfin/mach-bf527/boards
+340K	linux/arch/blackfin/mach-bf527/include/mach
+340K	linux/arch/blackfin/mach-bf527/include
+496K	linux/arch/blackfin/mach-bf527
+ 96K	linux/arch/blackfin/mach-bf533/boards
+156K	linux/arch/blackfin/mach-bf533/include/mach
+156K	linux/arch/blackfin/mach-bf533/include
+268K	linux/arch/blackfin/mach-bf533
+196K	linux/arch/blackfin/mach-bf537/boards
+344K	linux/arch/blackfin/mach-bf537/include/mach
+344K	linux/arch/blackfin/mach-bf537/include
+560K	linux/arch/blackfin/mach-bf537
+ 32K	linux/arch/blackfin/mach-bf538/boards
+336K	linux/arch/blackfin/mach-bf538/include/mach
+336K	linux/arch/blackfin/mach-bf538/include
+392K	linux/arch/blackfin/mach-bf538
+ 76K	linux/arch/blackfin/mach-bf548/boards
+864K	linux/arch/blackfin/mach-bf548/include/mach
+864K	linux/arch/blackfin/mach-bf548/include
+964K	linux/arch/blackfin/mach-bf548
+ 60K	linux/arch/blackfin/mach-bf561/boards
+272K	linux/arch/blackfin/mach-bf561/include/mach
+272K	linux/arch/blackfin/mach-bf561/include
+384K	linux/arch/blackfin/mach-bf561
+ 48K	linux/arch/blackfin/mach-bf609/boards
+608K	linux/arch/blackfin/mach-bf609/include/mach
+608K	linux/arch/blackfin/mach-bf609/include
+704K	linux/arch/blackfin/mach-bf609
+164K	linux/arch/blackfin/mach-common
+ 56K	linux/arch/blackfin/mm
+8.0K	linux/arch/blackfin/oprofile
+5.7M	linux/arch/blackfin
+ 40K	linux/arch/c6x/boot/dts
+ 48K	linux/arch/c6x/boot
+ 20K	linux/arch/c6x/configs
+176K	linux/arch/c6x/include/asm
+ 36K	linux/arch/c6x/include/uapi/asm
+ 36K	linux/arch/c6x/include/uapi
+212K	linux/arch/c6x/include
+132K	linux/arch/c6x/kernel
+ 80K	linux/arch/c6x/lib
+ 12K	linux/arch/c6x/mm
+ 92K	linux/arch/c6x/platforms
+604K	linux/arch/c6x
+152K	linux/arch/cris/arch-v10/drivers
+252K	linux/arch/cris/arch-v10/kernel
+ 64K	linux/arch/cris/arch-v10/lib
+ 28K	linux/arch/cris/arch-v10/mm
+524K	linux/arch/cris/arch-v10
+ 40K	linux/arch/cris/arch-v32/drivers/mach-a3
+ 40K	linux/arch/cris/arch-v32/drivers/mach-fs
+ 12K	linux/arch/cris/arch-v32/drivers/pci
+328K	linux/arch/cris/arch-v32/drivers
+244K	linux/arch/cris/arch-v32/kernel
+ 60K	linux/arch/cris/arch-v32/lib
+ 64K	linux/arch/cris/arch-v32/mach-a3
+ 60K	linux/arch/cris/arch-v32/mach-fs
+ 36K	linux/arch/cris/arch-v32/mm
+808K	linux/arch/cris/arch-v32
+ 36K	linux/arch/cris/boot/compressed
+ 36K	linux/arch/cris/boot/rescue
+8.0K	linux/arch/cris/boot/tools
+ 88K	linux/arch/cris/boot
+ 16K	linux/arch/cris/configs
+448K	linux/arch/cris/include/arch-v10/arch
+448K	linux/arch/cris/include/arch-v10
+272K	linux/arch/cris/include/arch-v32/arch/hwregs/asm
+488K	linux/arch/cris/include/arch-v32/arch/hwregs/iop/asm
+808K	linux/arch/cris/include/arch-v32/arch/hwregs/iop
+1.2M	linux/arch/cris/include/arch-v32/arch/hwregs
+1.4M	linux/arch/cris/include/arch-v32/arch
+124K	linux/arch/cris/include/arch-v32/mach-a3/mach/hwregs/asm
+208K	linux/arch/cris/include/arch-v32/mach-a3/mach/hwregs/iop/asm
+316K	linux/arch/cris/include/arch-v32/mach-a3/mach/hwregs/iop
+588K	linux/arch/cris/include/arch-v32/mach-a3/mach/hwregs
+608K	linux/arch/cris/include/arch-v32/mach-a3/mach
+608K	linux/arch/cris/include/arch-v32/mach-a3
+ 84K	linux/arch/cris/include/arch-v32/mach-fs/mach/hwregs/asm
+208K	linux/arch/cris/include/arch-v32/mach-fs/mach/hwregs
+228K	linux/arch/cris/include/arch-v32/mach-fs/mach
+228K	linux/arch/cris/include/arch-v32/mach-fs
+2.2M	linux/arch/cris/include/arch-v32
+440K	linux/arch/cris/include/asm
+4.0K	linux/arch/cris/include/uapi/arch-v10/arch
+4.0K	linux/arch/cris/include/uapi/arch-v10
+4.0K	linux/arch/cris/include/uapi/arch-v32/arch
+4.0K	linux/arch/cris/include/uapi/arch-v32
+4.0K	linux/arch/cris/include/uapi/asm
+ 12K	linux/arch/cris/include/uapi
+3.1M	linux/arch/cris/include
+ 60K	linux/arch/cris/kernel
+ 28K	linux/arch/cris/mm
+4.6M	linux/arch/cris
+4.0K	linux/arch/frv/boot
+476K	linux/arch/frv/include/asm
+148K	linux/arch/frv/include/uapi/asm
+148K	linux/arch/frv/include/uapi
+624K	linux/arch/frv/include
+436K	linux/arch/frv/kernel
+ 84K	linux/arch/frv/lib
+ 48K	linux/arch/frv/mb93090-mb00
+ 88K	linux/arch/frv/mm
+1.3M	linux/arch/frv
+ 24K	linux/arch/h8300/boot/compressed
+ 28K	linux/arch/h8300/boot
+460K	linux/arch/h8300/include/asm
+4.0K	linux/arch/h8300/include/uapi/asm
+4.0K	linux/arch/h8300/include/uapi
+464K	linux/arch/h8300/include
+ 20K	linux/arch/h8300/kernel/timer
+124K	linux/arch/h8300/kernel
+ 32K	linux/arch/h8300/lib
+ 24K	linux/arch/h8300/mm
+8.0K	linux/arch/h8300/platform/h8300h/aki3068net
+ 12K	linux/arch/h8300/platform/h8300h/generic
+8.0K	linux/arch/h8300/platform/h8300h/h8max
+ 48K	linux/arch/h8300/platform/h8300h
+ 12K	linux/arch/h8300/platform/h8s/edosk2674
+ 12K	linux/arch/h8300/platform/h8s/generic
+ 36K	linux/arch/h8300/platform/h8s
+ 84K	linux/arch/h8300/platform
+788K	linux/arch/h8300
+4.0K	linux/arch/hexagon/configs
+256K	linux/arch/hexagon/include/asm
+ 56K	linux/arch/hexagon/include/uapi/asm
+ 56K	linux/arch/hexagon/include/uapi
+312K	linux/arch/hexagon/include
+184K	linux/arch/hexagon/kernel
+ 40K	linux/arch/hexagon/lib
+ 56K	linux/arch/hexagon/mm
+604K	linux/arch/hexagon
+ 40K	linux/arch/ia64/configs
+ 16K	linux/arch/ia64/dig
+ 76K	linux/arch/ia64/hp/common
+ 32K	linux/arch/ia64/hp/sim/boot
+104K	linux/arch/ia64/hp/sim
+ 12K	linux/arch/ia64/hp/zx1
+192K	linux/arch/ia64/hp
+ 24K	linux/arch/ia64/include/asm/native
+8.0K	linux/arch/ia64/include/asm/sn/sn2
+432K	linux/arch/ia64/include/asm/sn
+ 52K	linux/arch/ia64/include/asm/uv
+ 76K	linux/arch/ia64/include/asm/xen
+1.3M	linux/arch/ia64/include/asm
+232K	linux/arch/ia64/include/uapi/asm
+232K	linux/arch/ia64/include/uapi
+1.6M	linux/arch/ia64/include
+ 20K	linux/arch/ia64/kernel/cpufreq
+1.4M	linux/arch/ia64/kernel
+348K	linux/arch/ia64/kvm
+160K	linux/arch/ia64/lib
+104K	linux/arch/ia64/mm
+ 16K	linux/arch/ia64/oprofile
+ 28K	linux/arch/ia64/pci
+ 40K	linux/arch/ia64/scripts
+ 20K	linux/arch/ia64/sn/include/xtalk
+ 28K	linux/arch/ia64/sn/include
+ 76K	linux/arch/ia64/sn/kernel/sn2
+248K	linux/arch/ia64/sn/kernel
+ 40K	linux/arch/ia64/sn/pci/pcibr
+112K	linux/arch/ia64/sn/pci
+392K	linux/arch/ia64/sn
+ 12K	linux/arch/ia64/uv/kernel
+ 16K	linux/arch/ia64/uv
+116K	linux/arch/ia64/xen
+4.4M	linux/arch/ia64
+ 32K	linux/arch/m32r/boot/compressed
+ 44K	linux/arch/m32r/boot
+ 48K	linux/arch/m32r/configs
+8.0K	linux/arch/m32r/include/asm/m32104ut
+ 20K	linux/arch/m32r/include/asm/m32700ut
+8.0K	linux/arch/m32r/include/asm/mappi2
+8.0K	linux/arch/m32r/include/asm/mappi3
+ 20K	linux/arch/m32r/include/asm/opsput
+608K	linux/arch/m32r/include/asm
+4.0K	linux/arch/m32r/include/uapi/asm
+4.0K	linux/arch/m32r/include/uapi
+612K	linux/arch/m32r/include
+192K	linux/arch/m32r/kernel
+ 52K	linux/arch/m32r/lib
+ 64K	linux/arch/m32r/mm
+8.0K	linux/arch/m32r/oprofile
+ 16K	linux/arch/m32r/platforms/m32104ut
+ 52K	linux/arch/m32r/platforms/m32700ut
+ 52K	linux/arch/m32r/platforms/mappi
+ 32K	linux/arch/m32r/platforms/mappi2
+ 32K	linux/arch/m32r/platforms/mappi3
+ 20K	linux/arch/m32r/platforms/oaks32r
+ 36K	linux/arch/m32r/platforms/opsput
+ 20K	linux/arch/m32r/platforms/usrv
+264K	linux/arch/m32r/platforms
+1.3M	linux/arch/m32r
+ 60K	linux/arch/m68k/amiga
+ 16K	linux/arch/m68k/apollo
+ 88K	linux/arch/m68k/atari
+ 24K	linux/arch/m68k/bvme6000
+172K	linux/arch/m68k/configs
+ 28K	linux/arch/m68k/emu
+532K	linux/arch/m68k/fpsp040
+ 36K	linux/arch/m68k/hp300
+1.7M	linux/arch/m68k/ifpsp060/src
+2.3M	linux/arch/m68k/ifpsp060
+1.3M	linux/arch/m68k/include/asm
+108K	linux/arch/m68k/include/uapi/asm
+108K	linux/arch/m68k/include/uapi
+1.4M	linux/arch/m68k/include
+316K	linux/arch/m68k/kernel
+ 76K	linux/arch/m68k/lib
+148K	linux/arch/m68k/mac
+148K	linux/arch/m68k/math-emu
+ 76K	linux/arch/m68k/mm
+ 12K	linux/arch/m68k/mvme147
+ 20K	linux/arch/m68k/mvme16x
+ 68K	linux/arch/m68k/platform/68328
+ 72K	linux/arch/m68k/platform/68360
+8.0K	linux/arch/m68k/platform/68EZ328
+244K	linux/arch/m68k/platform/68VZ328
+204K	linux/arch/m68k/platform/coldfire
+600K	linux/arch/m68k/platform
+ 28K	linux/arch/m68k/q40
+ 20K	linux/arch/m68k/sun3/prom
+ 76K	linux/arch/m68k/sun3
+ 28K	linux/arch/m68k/sun3x
+8.0K	linux/arch/m68k/tools/amiga
+8.0K	linux/arch/m68k/tools
+6.1M	linux/arch/m68k
+4.0K	linux/arch/microblaze/boot/dts
+ 12K	linux/arch/microblaze/boot
+8.0K	linux/arch/microblaze/configs
+544K	linux/arch/microblaze/include/asm
+4.0K	linux/arch/microblaze/include/uapi/asm
+4.0K	linux/arch/microblaze/include/uapi
+548K	linux/arch/microblaze/include
+ 52K	linux/arch/microblaze/kernel/cpu
+336K	linux/arch/microblaze/kernel
+104K	linux/arch/microblaze/lib
+ 52K	linux/arch/microblaze/mm
+8.0K	linux/arch/microblaze/oprofile
+ 72K	linux/arch/microblaze/pci
+ 20K	linux/arch/microblaze/platform/generic
+ 32K	linux/arch/microblaze/platform
+1.2M	linux/arch/microblaze
+140K	linux/arch/mips/alchemy/common
+108K	linux/arch/mips/alchemy/devboards
+284K	linux/arch/mips/alchemy
+ 76K	linux/arch/mips/ar7
+148K	linux/arch/mips/ath79
+ 84K	linux/arch/mips/bcm47xx
+ 24K	linux/arch/mips/bcm63xx/boards
+132K	linux/arch/mips/bcm63xx
+ 36K	linux/arch/mips/boot/compressed
+ 68K	linux/arch/mips/boot
+300K	linux/arch/mips/cavium-octeon/executive
+508K	linux/arch/mips/cavium-octeon
+ 56K	linux/arch/mips/cobalt
+312K	linux/arch/mips/configs
+ 40K	linux/arch/mips/dec/prom
+132K	linux/arch/mips/dec
+8.0K	linux/arch/mips/emma/common
+ 28K	linux/arch/mips/emma/markeins
+ 44K	linux/arch/mips/emma
+ 52K	linux/arch/mips/fw/arc
+ 20K	linux/arch/mips/fw/cfe
+8.0K	linux/arch/mips/fw/lib
+8.0K	linux/arch/mips/fw/sni
+ 88K	linux/arch/mips/fw
+ 76K	linux/arch/mips/include/asm/dec
+ 16K	linux/arch/mips/include/asm/emma
+8.0K	linux/arch/mips/include/asm/fw/arc
+8.0K	linux/arch/mips/include/asm/fw/cfe
+ 16K	linux/arch/mips/include/asm/fw
+ 24K	linux/arch/mips/include/asm/ip32
+ 32K	linux/arch/mips/include/asm/lasat
+ 28K	linux/arch/mips/include/asm/mach-ar7
+ 56K	linux/arch/mips/include/asm/mach-ath79
+176K	linux/arch/mips/include/asm/mach-au1x00
+ 16K	linux/arch/mips/include/asm/mach-bcm47xx
+184K	linux/arch/mips/include/asm/mach-bcm63xx
+ 20K	linux/arch/mips/include/asm/mach-cavium-octeon
+ 20K	linux/arch/mips/include/asm/mach-cobalt
+ 20K	linux/arch/mips/include/asm/mach-db1x00
+8.0K	linux/arch/mips/include/asm/mach-dec
+8.0K	linux/arch/mips/include/asm/mach-emma2rh
+ 52K	linux/arch/mips/include/asm/mach-generic
+ 12K	linux/arch/mips/include/asm/mach-ip22
+ 40K	linux/arch/mips/include/asm/mach-ip27
+ 12K	linux/arch/mips/include/asm/mach-ip28
+ 24K	linux/arch/mips/include/asm/mach-ip32
+ 16K	linux/arch/mips/include/asm/mach-jazz
+ 64K	linux/arch/mips/include/asm/mach-jz4740
+ 12K	linux/arch/mips/include/asm/mach-lantiq/falcon
+ 16K	linux/arch/mips/include/asm/mach-lantiq/xway
+ 44K	linux/arch/mips/include/asm/mach-lantiq
+ 12K	linux/arch/mips/include/asm/mach-lasat
+ 20K	linux/arch/mips/include/asm/mach-loongson/cs5536
+ 64K	linux/arch/mips/include/asm/mach-loongson
+ 28K	linux/arch/mips/include/asm/mach-loongson1
+ 24K	linux/arch/mips/include/asm/mach-malta
+ 12K	linux/arch/mips/include/asm/mach-netlogic
+ 36K	linux/arch/mips/include/asm/mach-pnx833x
+ 52K	linux/arch/mips/include/asm/mach-pnx8550
+ 56K	linux/arch/mips/include/asm/mach-powertv
+ 76K	linux/arch/mips/include/asm/mach-rc32434
+ 12K	linux/arch/mips/include/asm/mach-rm
+ 16K	linux/arch/mips/include/asm/mach-sead3
+8.0K	linux/arch/mips/include/asm/mach-sibyte
+ 16K	linux/arch/mips/include/asm/mach-tx39xx
+ 24K	linux/arch/mips/include/asm/mach-tx49xx
+8.0K	linux/arch/mips/include/asm/mach-vr41xx
+8.0K	linux/arch/mips/include/asm/mach-wrppmc
+8.0K	linux/arch/mips/include/asm/mach-yosemite
+ 60K	linux/arch/mips/include/asm/mips-boards
+ 64K	linux/arch/mips/include/asm/netlogic/xlp-hal
+ 40K	linux/arch/mips/include/asm/netlogic/xlr
+128K	linux/arch/mips/include/asm/netlogic
+2.3M	linux/arch/mips/include/asm/octeon
+ 32K	linux/arch/mips/include/asm/pci
+104K	linux/arch/mips/include/asm/pmc-sierra/msp71xx
+104K	linux/arch/mips/include/asm/pmc-sierra
+ 60K	linux/arch/mips/include/asm/sgi
+416K	linux/arch/mips/include/asm/sibyte
+112K	linux/arch/mips/include/asm/sn/sn0
+252K	linux/arch/mips/include/asm/sn
+120K	linux/arch/mips/include/asm/txx9
+ 40K	linux/arch/mips/include/asm/vr41xx
+ 12K	linux/arch/mips/include/asm/xtalk
+6.0M	linux/arch/mips/include/asm
+192K	linux/arch/mips/include/uapi/asm
+192K	linux/arch/mips/include/uapi
+6.2M	linux/arch/mips/include
+ 48K	linux/arch/mips/jazz
+136K	linux/arch/mips/jz4740
+ 16K	linux/arch/mips/kernel/cpufreq
+912K	linux/arch/mips/kernel
+ 12K	linux/arch/mips/lantiq/dts
+ 20K	linux/arch/mips/lantiq/falcon
+ 44K	linux/arch/mips/lantiq/xway
+120K	linux/arch/mips/lantiq
+ 12K	linux/arch/mips/lasat/image
+104K	linux/arch/mips/lasat
+112K	linux/arch/mips/lib
+ 48K	linux/arch/mips/loongson/common/cs5536
+124K	linux/arch/mips/loongson/common
+ 12K	linux/arch/mips/loongson/fuloong-2e
+ 36K	linux/arch/mips/loongson/lemote-2f
+184K	linux/arch/mips/loongson
+ 28K	linux/arch/mips/loongson1/common
+8.0K	linux/arch/mips/loongson1/ls1b
+ 48K	linux/arch/mips/loongson1
+272K	linux/arch/mips/math-emu
+352K	linux/arch/mips/mm
+104K	linux/arch/mips/mti-malta
+116K	linux/arch/mips/mti-sead3
+ 40K	linux/arch/mips/netlogic/common
+8.0K	linux/arch/mips/netlogic/dts
+ 28K	linux/arch/mips/netlogic/xlp
+ 32K	linux/arch/mips/netlogic/xlr
+120K	linux/arch/mips/netlogic
+ 44K	linux/arch/mips/oprofile
+588K	linux/arch/mips/pci
+116K	linux/arch/mips/pmc-sierra/msp71xx
+ 64K	linux/arch/mips/pmc-sierra/yosemite
+188K	linux/arch/mips/pmc-sierra
+ 36K	linux/arch/mips/pnx833x/common
+8.0K	linux/arch/mips/pnx833x/stb22x
+ 52K	linux/arch/mips/pnx833x
+ 40K	linux/arch/mips/pnx8550/common
+ 16K	linux/arch/mips/pnx8550/jbs
+ 16K	linux/arch/mips/pnx8550/stb810
+ 80K	linux/arch/mips/pnx8550
+ 12K	linux/arch/mips/power
+116K	linux/arch/mips/powertv/asic
+ 12K	linux/arch/mips/powertv/pci
+208K	linux/arch/mips/powertv
+ 48K	linux/arch/mips/rb532
+ 96K	linux/arch/mips/sgi-ip22
+104K	linux/arch/mips/sgi-ip27
+ 52K	linux/arch/mips/sgi-ip32
+ 32K	linux/arch/mips/sibyte/bcm1480
+ 40K	linux/arch/mips/sibyte/common
+ 44K	linux/arch/mips/sibyte/sb1250
+ 36K	linux/arch/mips/sibyte/swarm
+164K	linux/arch/mips/sibyte
+ 76K	linux/arch/mips/sni
+136K	linux/arch/mips/txx9/generic
+ 24K	linux/arch/mips/txx9/jmr3927
+ 28K	linux/arch/mips/txx9/rbtx4927
+ 28K	linux/arch/mips/txx9/rbtx4938
+ 28K	linux/arch/mips/txx9/rbtx4939
+256K	linux/arch/mips/txx9
+8.0K	linux/arch/mips/vr41xx/casio-e55
+ 68K	linux/arch/mips/vr41xx/common
+8.0K	linux/arch/mips/vr41xx/ibm-workpad
+ 92K	linux/arch/mips/vr41xx
+ 32K	linux/arch/mips/wrppmc
+ 13M	linux/arch/mips
+ 28K	linux/arch/mn10300/boot/compressed
+8.0K	linux/arch/mn10300/boot/tools
+ 48K	linux/arch/mn10300/boot
+8.0K	linux/arch/mn10300/configs
+508K	linux/arch/mn10300/include/asm
+140K	linux/arch/mn10300/include/uapi/asm
+140K	linux/arch/mn10300/include/uapi
+648K	linux/arch/mn10300/include
+412K	linux/arch/mn10300/kernel
+ 68K	linux/arch/mn10300/lib
+204K	linux/arch/mn10300/mm
+8.0K	linux/arch/mn10300/oprofile
+ 28K	linux/arch/mn10300/proc-mn103e010/include/proc
+ 28K	linux/arch/mn10300/proc-mn103e010/include
+ 36K	linux/arch/mn10300/proc-mn103e010
+ 40K	linux/arch/mn10300/proc-mn2ws0050/include/proc
+ 40K	linux/arch/mn10300/proc-mn2ws0050/include
+ 48K	linux/arch/mn10300/proc-mn2ws0050
+ 24K	linux/arch/mn10300/unit-asb2303/include/unit
+ 24K	linux/arch/mn10300/unit-asb2303/include
+ 44K	linux/arch/mn10300/unit-asb2303
+ 16K	linux/arch/mn10300/unit-asb2305/include/unit
+ 16K	linux/arch/mn10300/unit-asb2305/include
+ 60K	linux/arch/mn10300/unit-asb2305
+ 36K	linux/arch/mn10300/unit-asb2364/include/unit
+ 36K	linux/arch/mn10300/unit-asb2364/include
+ 56K	linux/arch/mn10300/unit-asb2364
+1.6M	linux/arch/mn10300
+4.0K	linux/arch/openrisc/boot/dts
+8.0K	linux/arch/openrisc/boot
+4.0K	linux/arch/openrisc/configs
+ 16K	linux/arch/openrisc/include/asm/bitops
+200K	linux/arch/openrisc/include/asm
+ 32K	linux/arch/openrisc/include/uapi/asm
+ 32K	linux/arch/openrisc/include/uapi
+232K	linux/arch/openrisc/include
+192K	linux/arch/openrisc/kernel
+ 12K	linux/arch/openrisc/lib
+ 36K	linux/arch/openrisc/mm
+500K	linux/arch/openrisc
+ 32K	linux/arch/parisc/configs
+ 80K	linux/arch/parisc/hpux
+528K	linux/arch/parisc/include/asm
+172K	linux/arch/parisc/include/uapi/asm
+172K	linux/arch/parisc/include/uapi
+700K	linux/arch/parisc/include
+848K	linux/arch/parisc/kernel
+ 64K	linux/arch/parisc/lib
+520K	linux/arch/parisc/math-emu
+ 48K	linux/arch/parisc/mm
+8.0K	linux/arch/parisc/oprofile
+2.3M	linux/arch/parisc
+452K	linux/arch/powerpc/boot/dts/fsl
+1.9M	linux/arch/powerpc/boot/dts
+2.5M	linux/arch/powerpc/boot
+ 32K	linux/arch/powerpc/configs/40x
+ 68K	linux/arch/powerpc/configs/44x
+ 20K	linux/arch/powerpc/configs/52xx
+ 56K	linux/arch/powerpc/configs/83xx
+ 64K	linux/arch/powerpc/configs/85xx
+ 40K	linux/arch/powerpc/configs/86xx
+540K	linux/arch/powerpc/configs
+1.9M	linux/arch/powerpc/include/asm
+208K	linux/arch/powerpc/include/uapi/asm
+208K	linux/arch/powerpc/include/uapi
+2.1M	linux/arch/powerpc/include
+ 52K	linux/arch/powerpc/kernel/vdso32
+ 52K	linux/arch/powerpc/kernel/vdso64
+2.0M	linux/arch/powerpc/kernel
+652K	linux/arch/powerpc/kvm
+256K	linux/arch/powerpc/lib
+204K	linux/arch/powerpc/math-emu
+524K	linux/arch/powerpc/mm
+ 44K	linux/arch/powerpc/net
+ 40K	linux/arch/powerpc/oprofile/cell
+152K	linux/arch/powerpc/oprofile
+196K	linux/arch/powerpc/perf
+ 24K	linux/arch/powerpc/platforms/40x
+ 72K	linux/arch/powerpc/platforms/44x
+ 64K	linux/arch/powerpc/platforms/512x
+148K	linux/arch/powerpc/platforms/52xx
+ 64K	linux/arch/powerpc/platforms/82xx
+120K	linux/arch/powerpc/platforms/83xx
+216K	linux/arch/powerpc/platforms/85xx
+ 64K	linux/arch/powerpc/platforms/86xx
+ 60K	linux/arch/powerpc/platforms/8xx
+ 16K	linux/arch/powerpc/platforms/amigaone
+340K	linux/arch/powerpc/platforms/cell/spufs
+756K	linux/arch/powerpc/platforms/cell
+ 64K	linux/arch/powerpc/platforms/chrp
+100K	linux/arch/powerpc/platforms/embedded6xx
+ 52K	linux/arch/powerpc/platforms/maple
+ 88K	linux/arch/powerpc/platforms/pasemi
+412K	linux/arch/powerpc/platforms/powermac
+124K	linux/arch/powerpc/platforms/powernv
+4.0K	linux/arch/powerpc/platforms/prep
+248K	linux/arch/powerpc/platforms/ps3
+440K	linux/arch/powerpc/platforms/pseries
+144K	linux/arch/powerpc/platforms/wsp
+3.2M	linux/arch/powerpc/platforms
+116K	linux/arch/powerpc/sysdev/bestcomm
+ 16K	linux/arch/powerpc/sysdev/ge
+ 96K	linux/arch/powerpc/sysdev/qe_lib
+ 48K	linux/arch/powerpc/sysdev/xics
+964K	linux/arch/powerpc/sysdev
+392K	linux/arch/powerpc/xmon
+ 14M	linux/arch/powerpc
+ 44K	linux/arch/s390/appldata
+ 28K	linux/arch/s390/boot/compressed
+ 40K	linux/arch/s390/boot
+ 96K	linux/arch/s390/crypto
+ 56K	linux/arch/s390/hypfs
+680K	linux/arch/s390/include/asm
+220K	linux/arch/s390/include/uapi/asm
+220K	linux/arch/s390/include/uapi
+900K	linux/arch/s390/include
+ 32K	linux/arch/s390/kernel/vdso32
+ 32K	linux/arch/s390/kernel/vdso64
+968K	linux/arch/s390/kernel
+128K	linux/arch/s390/kvm
+ 80K	linux/arch/s390/lib
+ 80K	linux/arch/s390/math-emu
+152K	linux/arch/s390/mm
+ 32K	linux/arch/s390/net
+ 60K	linux/arch/s390/oprofile
+2.6M	linux/arch/s390
+4.0K	linux/arch/score/boot
+4.0K	linux/arch/score/configs
+396K	linux/arch/score/include/asm
+4.0K	linux/arch/score/include/uapi/asm
+4.0K	linux/arch/score/include/uapi
+400K	linux/arch/score/include
+104K	linux/arch/score/kernel
+ 44K	linux/arch/score/lib
+ 52K	linux/arch/score/mm
+620K	linux/arch/score
+ 28K	linux/arch/sh/boards/mach-ap325rxa
+ 20K	linux/arch/sh/boards/mach-cayman
+ 20K	linux/arch/sh/boards/mach-dreamcast
+ 44K	linux/arch/sh/boards/mach-ecovec24
+ 40K	linux/arch/sh/boards/mach-highlander
+ 20K	linux/arch/sh/boards/mach-hp6xx
+ 32K	linux/arch/sh/boards/mach-kfr2r09
+ 20K	linux/arch/sh/boards/mach-landisk
+ 12K	linux/arch/sh/boards/mach-lboxre2
+ 36K	linux/arch/sh/boards/mach-microdev
+ 40K	linux/arch/sh/boards/mach-migor
+ 24K	linux/arch/sh/boards/mach-r2d
+ 24K	linux/arch/sh/boards/mach-rsk
+ 16K	linux/arch/sh/boards/mach-sdk7780
+ 32K	linux/arch/sh/boards/mach-sdk7786
+ 12K	linux/arch/sh/boards/mach-se/7206
+ 12K	linux/arch/sh/boards/mach-se/7343
+ 16K	linux/arch/sh/boards/mach-se/770x
+ 12K	linux/arch/sh/boards/mach-se/7721
+ 16K	linux/arch/sh/boards/mach-se/7722
+ 36K	linux/arch/sh/boards/mach-se/7724
+ 12K	linux/arch/sh/boards/mach-se/7751
+ 12K	linux/arch/sh/boards/mach-se/7780
+136K	linux/arch/sh/boards/mach-se
+ 12K	linux/arch/sh/boards/mach-sh03
+ 16K	linux/arch/sh/boards/mach-sh7763rdp
+ 24K	linux/arch/sh/boards/mach-x3proto
+708K	linux/arch/sh/boards
+ 32K	linux/arch/sh/boot/compressed
+ 16K	linux/arch/sh/boot/romimage
+ 56K	linux/arch/sh/boot
+8.0K	linux/arch/sh/cchips/hd6446x
+ 12K	linux/arch/sh/cchips
+232K	linux/arch/sh/configs
+ 60K	linux/arch/sh/drivers/dma
+192K	linux/arch/sh/drivers/pci
+ 12K	linux/arch/sh/drivers/superhyway
+284K	linux/arch/sh/drivers
+732K	linux/arch/sh/include/asm
+ 20K	linux/arch/sh/include/cpu-common/cpu
+ 20K	linux/arch/sh/include/cpu-common
+ 12K	linux/arch/sh/include/cpu-sh2/cpu
+ 12K	linux/arch/sh/include/cpu-sh2
+ 44K	linux/arch/sh/include/cpu-sh2a/cpu
+ 44K	linux/arch/sh/include/cpu-sh2a
+ 48K	linux/arch/sh/include/cpu-sh3/cpu
+ 48K	linux/arch/sh/include/cpu-sh3
+120K	linux/arch/sh/include/cpu-sh4/cpu
+120K	linux/arch/sh/include/cpu-sh4
+8.0K	linux/arch/sh/include/cpu-sh4a/cpu
+8.0K	linux/arch/sh/include/cpu-sh4a
+ 24K	linux/arch/sh/include/cpu-sh5/cpu
+ 24K	linux/arch/sh/include/cpu-sh5
+ 72K	linux/arch/sh/include/mach-common/mach
+ 72K	linux/arch/sh/include/mach-common
+ 16K	linux/arch/sh/include/mach-dreamcast/mach
+ 16K	linux/arch/sh/include/mach-dreamcast
+8.0K	linux/arch/sh/include/mach-ecovec24/mach
+8.0K	linux/arch/sh/include/mach-ecovec24
+ 12K	linux/arch/sh/include/mach-kfr2r09/mach
+ 12K	linux/arch/sh/include/mach-kfr2r09
+8.0K	linux/arch/sh/include/mach-landisk/mach
+8.0K	linux/arch/sh/include/mach-landisk
+4.0K	linux/arch/sh/include/mach-migor/mach
+4.0K	linux/arch/sh/include/mach-migor
+ 12K	linux/arch/sh/include/mach-sdk7786/mach
+ 12K	linux/arch/sh/include/mach-sdk7786
+ 40K	linux/arch/sh/include/mach-se/mach
+ 40K	linux/arch/sh/include/mach-se
+8.0K	linux/arch/sh/include/mach-sh03/mach
+8.0K	linux/arch/sh/include/mach-sh03
+8.0K	linux/arch/sh/include/mach-x3proto/mach
+8.0K	linux/arch/sh/include/mach-x3proto
+112K	linux/arch/sh/include/uapi/asm
+112K	linux/arch/sh/include/uapi
+1.3M	linux/arch/sh/include
+ 20K	linux/arch/sh/kernel/cpu/irq
+ 32K	linux/arch/sh/kernel/cpu/sh2
+356K	linux/arch/sh/kernel/cpu/sh2a
+148K	linux/arch/sh/kernel/cpu/sh3
+112K	linux/arch/sh/kernel/cpu/sh4
+904K	linux/arch/sh/kernel/cpu/sh4a
+ 88K	linux/arch/sh/kernel/cpu/sh5
+ 24K	linux/arch/sh/kernel/cpu/shmobile
+1.7M	linux/arch/sh/kernel/cpu
+ 32K	linux/arch/sh/kernel/vsyscall
+2.2M	linux/arch/sh/kernel
+152K	linux/arch/sh/lib
+ 56K	linux/arch/sh/lib64
+ 24K	linux/arch/sh/math-emu
+264K	linux/arch/sh/mm
+ 12K	linux/arch/sh/oprofile
+ 12K	linux/arch/sh/tools
+5.3M	linux/arch/sh
+ 16K	linux/arch/sparc/boot
+ 12K	linux/arch/sparc/configs
+184K	linux/arch/sparc/crypto
+1.4M	linux/arch/sparc/include/asm
+260K	linux/arch/sparc/include/uapi/asm
+260K	linux/arch/sparc/include/uapi
+1.6M	linux/arch/sparc/include
+1.9M	linux/arch/sparc/kernel
+440K	linux/arch/sparc/lib
+ 52K	linux/arch/sparc/math-emu
+304K	linux/arch/sparc/mm
+ 40K	linux/arch/sparc/net
+8.0K	linux/arch/sparc/oprofile
+ 84K	linux/arch/sparc/prom
+4.6M	linux/arch/sparc
+ 32K	linux/arch/tile/configs
+ 84K	linux/arch/tile/gxio
+104K	linux/arch/tile/include/arch
+476K	linux/arch/tile/include/asm
+124K	linux/arch/tile/include/gxio
+324K	linux/arch/tile/include/hv
+208K	linux/arch/tile/include/uapi/arch
+ 64K	linux/arch/tile/include/uapi/asm
+272K	linux/arch/tile/include/uapi
+1.3M	linux/arch/tile/include
+736K	linux/arch/tile/kernel
+4.0K	linux/arch/tile/kvm
+176K	linux/arch/tile/lib
+152K	linux/arch/tile/mm
+2.4M	linux/arch/tile
+392K	linux/arch/um/drivers
+124K	linux/arch/um/include/asm
+ 16K	linux/arch/um/include/shared/skas
+120K	linux/arch/um/include/shared
+244K	linux/arch/um/include
+ 28K	linux/arch/um/kernel/skas
+200K	linux/arch/um/kernel
+ 36K	linux/arch/um/os-Linux/drivers
+ 32K	linux/arch/um/os-Linux/skas
+212K	linux/arch/um/os-Linux
+4.0K	linux/arch/um/scripts
+ 16K	linux/arch/um/sys-ia64/sysdep
+ 20K	linux/arch/um/sys-ia64
+ 12K	linux/arch/um/sys-ppc/asm
+ 16K	linux/arch/um/sys-ppc/shared/sysdep
+ 16K	linux/arch/um/sys-ppc/shared
+ 56K	linux/arch/um/sys-ppc
+1.2M	linux/arch/um
+ 24K	linux/arch/unicore32/boot/compressed
+ 28K	linux/arch/unicore32/boot
+8.0K	linux/arch/unicore32/configs
+216K	linux/arch/unicore32/include/asm
+112K	linux/arch/unicore32/include/mach
+4.0K	linux/arch/unicore32/include/uapi/asm
+4.0K	linux/arch/unicore32/include/uapi
+332K	linux/arch/unicore32/include
+220K	linux/arch/unicore32/kernel
+ 48K	linux/arch/unicore32/lib
+120K	linux/arch/unicore32/mm
+776K	linux/arch/unicore32
+104K	linux/arch/x86/boot/compressed
+ 16K	linux/arch/x86/boot/tools
+316K	linux/arch/x86/boot
+ 16K	linux/arch/x86/configs
+612K	linux/arch/x86/crypto
+ 84K	linux/arch/x86/ia32
+ 24K	linux/arch/x86/include/asm/crypto
+8.0K	linux/arch/x86/include/asm/numachip
+156K	linux/arch/x86/include/asm/uv
+ 16K	linux/arch/x86/include/asm/visws
+ 68K	linux/arch/x86/include/asm/xen
+2.1M	linux/arch/x86/include/asm
+4.0K	linux/arch/x86/include/uapi/asm
+4.0K	linux/arch/x86/include/uapi
+2.1M	linux/arch/x86/include
+ 68K	linux/arch/x86/kernel/acpi
+312K	linux/arch/x86/kernel/apic
+152K	linux/arch/x86/kernel/cpu/mcheck
+108K	linux/arch/x86/kernel/cpu/mtrr
+856K	linux/arch/x86/kernel/cpu
+2.6M	linux/arch/x86/kernel
+944K	linux/arch/x86/kvm
+ 64K	linux/arch/x86/lguest
+252K	linux/arch/x86/lib
+440K	linux/arch/x86/math-emu
+ 64K	linux/arch/x86/mm/kmemcheck
+480K	linux/arch/x86/mm
+ 32K	linux/arch/x86/net
+ 84K	linux/arch/x86/oprofile
+264K	linux/arch/x86/pci
+ 20K	linux/arch/x86/platform/ce4100
+ 52K	linux/arch/x86/platform/efi
+ 20K	linux/arch/x86/platform/geode
+8.0K	linux/arch/x86/platform/iris
+ 44K	linux/arch/x86/platform/mrst
+ 68K	linux/arch/x86/platform/olpc
+8.0K	linux/arch/x86/platform/scx200
+8.0K	linux/arch/x86/platform/sfi
+ 92K	linux/arch/x86/platform/uv
+ 20K	linux/arch/x86/platform/visws
+344K	linux/arch/x86/platform
+ 32K	linux/arch/x86/power
+ 84K	linux/arch/x86/realmode/rm
+ 96K	linux/arch/x86/realmode
+ 40K	linux/arch/x86/syscalls
+ 64K	linux/arch/x86/tools
+ 80K	linux/arch/x86/um/asm
+ 24K	linux/arch/x86/um/os-Linux
+ 80K	linux/arch/x86/um/shared/sysdep
+ 80K	linux/arch/x86/um/shared
+ 32K	linux/arch/x86/um/vdso
+384K	linux/arch/x86/um
+ 32K	linux/arch/x86/vdso/vdso32
+108K	linux/arch/x86/vdso
+8.0K	linux/arch/x86/video
+304K	linux/arch/x86/xen
+9.7M	linux/arch/x86
+ 12K	linux/arch/xtensa/boot/boot-elf
+ 16K	linux/arch/xtensa/boot/boot-redboot
+8.0K	linux/arch/xtensa/boot/lib
+ 40K	linux/arch/xtensa/boot
+ 48K	linux/arch/xtensa/configs
+328K	linux/arch/xtensa/include/asm
+120K	linux/arch/xtensa/include/uapi/asm
+120K	linux/arch/xtensa/include/uapi
+448K	linux/arch/xtensa/include
+224K	linux/arch/xtensa/kernel
+ 72K	linux/arch/xtensa/lib
+ 44K	linux/arch/xtensa/mm
+8.0K	linux/arch/xtensa/platforms/iss/include/platform
+8.0K	linux/arch/xtensa/platforms/iss/include
+ 44K	linux/arch/xtensa/platforms/iss
+ 12K	linux/arch/xtensa/platforms/s6105/include/platform
+ 12K	linux/arch/xtensa/platforms/s6105/include
+ 24K	linux/arch/xtensa/platforms/s6105
+8.0K	linux/arch/xtensa/platforms/xt2000/include/platform
+8.0K	linux/arch/xtensa/platforms/xt2000/include
+ 16K	linux/arch/xtensa/platforms/xt2000
+ 84K	linux/arch/xtensa/platforms
+ 36K	linux/arch/xtensa/variants/dc232b/include/variant
+ 36K	linux/arch/xtensa/variants/dc232b/include
+ 36K	linux/arch/xtensa/variants/dc232b
+ 24K	linux/arch/xtensa/variants/fsf/include/variant
+ 24K	linux/arch/xtensa/variants/fsf/include
+ 24K	linux/arch/xtensa/variants/fsf
+ 76K	linux/arch/xtensa/variants/s6000/include/variant
+ 76K	linux/arch/xtensa/variants/s6000/include
+104K	linux/arch/xtensa/variants/s6000
+164K	linux/arch/xtensa/variants
+1.1M	linux/arch/xtensa
+118M	linux/arch
+240K	linux/block/partitions
+876K	linux/block
+ 76K	linux/crypto/asymmetric_keys
+ 76K	linux/crypto/async_tx
+2.2M	linux/crypto
+ 16K	linux/Documentation/ABI/obsolete
+ 24K	linux/Documentation/ABI/removed
+ 84K	linux/Documentation/ABI/stable
+628K	linux/Documentation/ABI/testing
+756K	linux/Documentation/ABI
+ 48K	linux/Documentation/accounting
+ 16K	linux/Documentation/acpi/apei
+ 36K	linux/Documentation/acpi
+ 28K	linux/Documentation/aoe
+ 12K	linux/Documentation/arm/Marvell
+8.0K	linux/Documentation/arm/msm
+ 20K	linux/Documentation/arm/nwfpe
+ 24K	linux/Documentation/arm/OMAP
+ 12K	linux/Documentation/arm/pxa
+ 80K	linux/Documentation/arm/SA1100
+ 12K	linux/Documentation/arm/Samsung
+ 60K	linux/Documentation/arm/Samsung-S3C24XX
+ 16K	linux/Documentation/arm/SH-Mobile
+4.0K	linux/Documentation/arm/SPEAr
+4.0K	linux/Documentation/arm/VFP
+332K	linux/Documentation/arm
+ 12K	linux/Documentation/arm64
+ 24K	linux/Documentation/auxdisplay
+4.0K	linux/Documentation/backlight
+ 20K	linux/Documentation/blackfin
+128K	linux/Documentation/block
+ 64K	linux/Documentation/blockdev/drbd
+164K	linux/Documentation/blockdev
+ 84K	linux/Documentation/cdrom
+172K	linux/Documentation/cgroups
+ 32K	linux/Documentation/connector
+8.0K	linux/Documentation/console
+ 72K	linux/Documentation/cpu-freq
+ 16K	linux/Documentation/cpuidle
+8.0K	linux/Documentation/cris
+ 52K	linux/Documentation/crypto
+120K	linux/Documentation/development-process
+ 92K	linux/Documentation/device-mapper
+ 12K	linux/Documentation/devicetree/bindings/arm/calxeda
+8.0K	linux/Documentation/devicetree/bindings/arm/davinci
+4.0K	linux/Documentation/devicetree/bindings/arm/exynos
+ 16K	linux/Documentation/devicetree/bindings/arm/mrvl
+4.0K	linux/Documentation/devicetree/bindings/arm/msm
+ 24K	linux/Documentation/devicetree/bindings/arm/omap
+4.0K	linux/Documentation/devicetree/bindings/arm/samsung
+ 20K	linux/Documentation/devicetree/bindings/arm/tegra
+ 12K	linux/Documentation/devicetree/bindings/arm/vt8500
+244K	linux/Documentation/devicetree/bindings/arm
+ 20K	linux/Documentation/devicetree/bindings/ata
+4.0K	linux/Documentation/devicetree/bindings/bus
+ 28K	linux/Documentation/devicetree/bindings/c6x
+ 32K	linux/Documentation/devicetree/bindings/clock
+4.0K	linux/Documentation/devicetree/bindings/cpufreq
+ 28K	linux/Documentation/devicetree/bindings/crypto
+ 28K	linux/Documentation/devicetree/bindings/dma
+8.0K	linux/Documentation/devicetree/bindings/fb
+ 96K	linux/Documentation/devicetree/bindings/gpio
+4.0K	linux/Documentation/devicetree/bindings/hwmon
+ 84K	linux/Documentation/devicetree/bindings/i2c
+4.0K	linux/Documentation/devicetree/bindings/input/touchscreen
+ 40K	linux/Documentation/devicetree/bindings/input
+8.0K	linux/Documentation/devicetree/bindings/interrupt-controller
+8.0K	linux/Documentation/devicetree/bindings/iommu
+8.0K	linux/Documentation/devicetree/bindings/lpddr2
+4.0K	linux/Documentation/devicetree/bindings/media
+4.0K	linux/Documentation/devicetree/bindings/memory-controllers/ti
+4.0K	linux/Documentation/devicetree/bindings/memory-controllers
+ 48K	linux/Documentation/devicetree/bindings/mfd
+ 20K	linux/Documentation/devicetree/bindings/mips/cavium
+ 20K	linux/Documentation/devicetree/bindings/mips
+ 16K	linux/Documentation/devicetree/bindings/misc
+ 64K	linux/Documentation/devicetree/bindings/mmc
+ 64K	linux/Documentation/devicetree/bindings/mtd
+ 20K	linux/Documentation/devicetree/bindings/net/can
+104K	linux/Documentation/devicetree/bindings/net
+4.0K	linux/Documentation/devicetree/bindings/nvec
+4.0K	linux/Documentation/devicetree/bindings/pci
+316K	linux/Documentation/devicetree/bindings/pinctrl
+4.0K	linux/Documentation/devicetree/bindings/power
+ 12K	linux/Documentation/devicetree/bindings/power_supply
+ 24K	linux/Documentation/devicetree/bindings/powerpc/4xx
+ 16K	linux/Documentation/devicetree/bindings/powerpc/fsl/cpm_qe/cpm
+ 20K	linux/Documentation/devicetree/bindings/powerpc/fsl/cpm_qe/qe
+ 56K	linux/Documentation/devicetree/bindings/powerpc/fsl/cpm_qe
+176K	linux/Documentation/devicetree/bindings/powerpc/fsl
+ 12K	linux/Documentation/devicetree/bindings/powerpc/nintendo
+212K	linux/Documentation/devicetree/bindings/powerpc
+ 20K	linux/Documentation/devicetree/bindings/pwm
+ 36K	linux/Documentation/devicetree/bindings/regulator
+ 48K	linux/Documentation/devicetree/bindings/rtc
+ 32K	linux/Documentation/devicetree/bindings/serial
+4.0K	linux/Documentation/devicetree/bindings/serio
+160K	linux/Documentation/devicetree/bindings/sound
+ 56K	linux/Documentation/devicetree/bindings/spi
+ 12K	linux/Documentation/devicetree/bindings/staging/iio/adc
+ 12K	linux/Documentation/devicetree/bindings/staging/iio
+4.0K	linux/Documentation/devicetree/bindings/staging/imx-drm
+ 16K	linux/Documentation/devicetree/bindings/staging
+4.0K	linux/Documentation/devicetree/bindings/thermal
+4.0K	linux/Documentation/devicetree/bindings/timer
+ 36K	linux/Documentation/devicetree/bindings/tty/serial
+ 36K	linux/Documentation/devicetree/bindings/tty
+ 76K	linux/Documentation/devicetree/bindings/usb
+8.0K	linux/Documentation/devicetree/bindings/video/backlight
+ 20K	linux/Documentation/devicetree/bindings/video
+4.0K	linux/Documentation/devicetree/bindings/virtio
+4.0K	linux/Documentation/devicetree/bindings/w1
+ 20K	linux/Documentation/devicetree/bindings/watchdog
+ 12K	linux/Documentation/devicetree/bindings/x86
+2.1M	linux/Documentation/devicetree/bindings
+2.1M	linux/Documentation/devicetree
+348K	linux/Documentation/DocBook/media/dvb
+1.9M	linux/Documentation/DocBook/media/v4l
+2.4M	linux/Documentation/DocBook/media
+3.4M	linux/Documentation/DocBook
+ 72K	linux/Documentation/driver-model
+116K	linux/Documentation/dvb
+ 16K	linux/Documentation/early-userspace
+ 40K	linux/Documentation/EDID
+8.0K	linux/Documentation/extcon
+ 16K	linux/Documentation/fault-injection
+264K	linux/Documentation/fb
+120K	linux/Documentation/filesystems/caching
+ 56K	linux/Documentation/filesystems/configfs
+ 96K	linux/Documentation/filesystems/nfs
+ 24K	linux/Documentation/filesystems/pohmelfs
+1.2M	linux/Documentation/filesystems
+8.0K	linux/Documentation/firmware_class
+ 92K	linux/Documentation/frv
+ 40K	linux/Documentation/hid
+660K	linux/Documentation/hwmon
+ 92K	linux/Documentation/i2c/busses
+4.0K	linux/Documentation/i2c/muxes
+192K	linux/Documentation/i2c
+ 20K	linux/Documentation/i2o
+124K	linux/Documentation/ia64
+ 60K	linux/Documentation/ide
+ 28K	linux/Documentation/infiniband
+312K	linux/Documentation/input
+ 72K	linux/Documentation/ioctl
+248K	linux/Documentation/isdn
+120K	linux/Documentation/ja_JP
+108K	linux/Documentation/kbuild
+ 28K	linux/Documentation/kdump
+ 52K	linux/Documentation/ko_KR
+136K	linux/Documentation/laptops
+ 44K	linux/Documentation/leds
+ 48K	linux/Documentation/m68k
+4.0K	linux/Documentation/make
+4.0K	linux/Documentation/memory-devices
+8.0K	linux/Documentation/mips
+ 36K	linux/Documentation/misc-devices/mei
+ 84K	linux/Documentation/misc-devices
+ 16K	linux/Documentation/mmc
+8.0K	linux/Documentation/mn10300
+ 28K	linux/Documentation/mtd
+4.0K	linux/Documentation/namespaces
+ 44K	linux/Documentation/netlabel
+ 24K	linux/Documentation/networking/caif
+ 12K	linux/Documentation/networking/mac80211_hwsim
+ 24K	linux/Documentation/networking/timestamping
+1.4M	linux/Documentation/networking
+ 16K	linux/Documentation/nfc
+ 16K	linux/Documentation/parisc
+ 96K	linux/Documentation/PCI
+ 32K	linux/Documentation/pcmcia
+ 28K	linux/Documentation/power/regulator
+344K	linux/Documentation/power
+108K	linux/Documentation/powerpc
+8.0K	linux/Documentation/pps
+ 24K	linux/Documentation/prctl
+4.0K	linux/Documentation/pti
+ 20K	linux/Documentation/ptp
+ 20K	linux/Documentation/rapidio
+272K	linux/Documentation/RCU
+216K	linux/Documentation/s390
+ 60K	linux/Documentation/scheduler
+912K	linux/Documentation/scsi
+148K	linux/Documentation/security
+132K	linux/Documentation/serial
+ 16K	linux/Documentation/sh
+ 48K	linux/Documentation/sound/alsa/soc
+368K	linux/Documentation/sound/alsa
+252K	linux/Documentation/sound/oss
+620K	linux/Documentation/sound
+ 84K	linux/Documentation/spi
+ 88K	linux/Documentation/sysctl
+ 48K	linux/Documentation/target
+ 20K	linux/Documentation/telephony
+ 20K	linux/Documentation/thermal
+ 56K	linux/Documentation/timers
+ 44K	linux/Documentation/trace/postprocess
+232K	linux/Documentation/trace
+292K	linux/Documentation/usb
+ 12K	linux/Documentation/vDSO
+ 96K	linux/Documentation/video4linux/bttv
+ 92K	linux/Documentation/video4linux/cx2341x
+4.0K	linux/Documentation/video4linux/cx88
+736K	linux/Documentation/video4linux
+168K	linux/Documentation/virtual/kvm
+120K	linux/Documentation/virtual/uml
+392K	linux/Documentation/virtual
+224K	linux/Documentation/vm
+ 24K	linux/Documentation/w1/masters
+ 16K	linux/Documentation/w1/slaves
+ 60K	linux/Documentation/w1
+ 16K	linux/Documentation/watchdog/src
+ 80K	linux/Documentation/watchdog
+ 16K	linux/Documentation/wimax
+8.0K	linux/Documentation/x86/i386
+ 48K	linux/Documentation/x86/x86_64
+152K	linux/Documentation/x86
+8.0K	linux/Documentation/zh_CN/arm
+ 16K	linux/Documentation/zh_CN/arm64
+ 16K	linux/Documentation/zh_CN/filesystems
+ 52K	linux/Documentation/zh_CN/video4linux
+292K	linux/Documentation/zh_CN
+ 21M	linux/Documentation
+ 12K	linux/drivers/accessibility/braille
+ 20K	linux/drivers/accessibility
+2.5M	linux/drivers/acpi/acpica
+156K	linux/drivers/acpi/apei
+3.5M	linux/drivers/acpi
+ 32K	linux/drivers/amba
+2.3M	linux/drivers/ata
+1.3M	linux/drivers/atm
+ 36K	linux/drivers/auxdisplay
+264K	linux/drivers/base/power
+124K	linux/drivers/base/regmap
+800K	linux/drivers/base
+160K	linux/drivers/bcma
+ 84K	linux/drivers/block/aoe
+648K	linux/drivers/block/drbd
+128K	linux/drivers/block/mtip32xx
+304K	linux/drivers/block/paride
+ 60K	linux/drivers/block/xen-blkback
+2.8M	linux/drivers/block
+344K	linux/drivers/bluetooth
+ 40K	linux/drivers/bus
+128K	linux/drivers/cdrom
+452K	linux/drivers/char/agp
+164K	linux/drivers/char/hw_random
+364K	linux/drivers/char/ipmi
+132K	linux/drivers/char/mwave
+192K	linux/drivers/char/pcmcia
+208K	linux/drivers/char/tpm
+ 68K	linux/drivers/char/xilinx_hwicap
+2.3M	linux/drivers/char
+ 60K	linux/drivers/clk/mmp
+ 52K	linux/drivers/clk/mxs
+8.0K	linux/drivers/clk/socfpga
+156K	linux/drivers/clk/spear
+ 44K	linux/drivers/clk/ux500
+ 20K	linux/drivers/clk/versatile
+540K	linux/drivers/clk
+160K	linux/drivers/clocksource
+ 32K	linux/drivers/connector
+588K	linux/drivers/cpufreq
+ 28K	linux/drivers/cpuidle/governors
+ 96K	linux/drivers/cpuidle
+ 80K	linux/drivers/crypto/amcc
+320K	linux/drivers/crypto/caam
+160K	linux/drivers/crypto/nx
+ 96K	linux/drivers/crypto/ux500/cryp
+ 68K	linux/drivers/crypto/ux500/hash
+172K	linux/drivers/crypto/ux500
+1.4M	linux/drivers/crypto
+ 24K	linux/drivers/dca
+ 76K	linux/drivers/devfreq
+ 24K	linux/drivers/dio
+176K	linux/drivers/dma/ioat
+ 72K	linux/drivers/dma/ipu
+160K	linux/drivers/dma/ppc4xx
+ 60K	linux/drivers/dma/sh
+1.5M	linux/drivers/dma
+1020K	linux/drivers/edac
+ 88K	linux/drivers/eisa
+104K	linux/drivers/extcon
+436K	linux/drivers/firewire
+ 40K	linux/drivers/firmware/google
+232K	linux/drivers/firmware
+976K	linux/drivers/gpio
+160K	linux/drivers/gpu/drm/ast
+ 64K	linux/drivers/gpu/drm/cirrus
+432K	linux/drivers/gpu/drm/exynos
+1008K	linux/drivers/gpu/drm/gma500
+ 60K	linux/drivers/gpu/drm/i2c
+ 52K	linux/drivers/gpu/drm/i810
+1.7M	linux/drivers/gpu/drm/i915
+120K	linux/drivers/gpu/drm/mga
+116K	linux/drivers/gpu/drm/mgag200
+ 84K	linux/drivers/gpu/drm/nouveau/core/core
+8.0K	linux/drivers/gpu/drm/nouveau/core/engine/bsp
+ 48K	linux/drivers/gpu/drm/nouveau/core/engine/copy/fuc
+ 72K	linux/drivers/gpu/drm/nouveau/core/engine/copy
+ 28K	linux/drivers/gpu/drm/nouveau/core/engine/crypt/fuc
+ 44K	linux/drivers/gpu/drm/nouveau/core/engine/crypt
+ 20K	linux/drivers/gpu/drm/nouveau/core/engine/disp
+ 24K	linux/drivers/gpu/drm/nouveau/core/engine/dmaobj
+144K	linux/drivers/gpu/drm/nouveau/core/engine/fifo
+144K	linux/drivers/gpu/drm/nouveau/core/engine/graph/fuc
+772K	linux/drivers/gpu/drm/nouveau/core/engine/graph
+ 32K	linux/drivers/gpu/drm/nouveau/core/engine/mpeg
+8.0K	linux/drivers/gpu/drm/nouveau/core/engine/ppp
+ 28K	linux/drivers/gpu/drm/nouveau/core/engine/software
+8.0K	linux/drivers/gpu/drm/nouveau/core/engine/vp
+1.1M	linux/drivers/gpu/drm/nouveau/core/engine
+ 80K	linux/drivers/gpu/drm/nouveau/core/include/core
+ 44K	linux/drivers/gpu/drm/nouveau/core/include/engine
+ 52K	linux/drivers/gpu/drm/nouveau/core/include/subdev/bios
+124K	linux/drivers/gpu/drm/nouveau/core/include/subdev
+248K	linux/drivers/gpu/drm/nouveau/core/include
+ 20K	linux/drivers/gpu/drm/nouveau/core/subdev/bar
+116K	linux/drivers/gpu/drm/nouveau/core/subdev/bios
+ 44K	linux/drivers/gpu/drm/nouveau/core/subdev/clock
+116K	linux/drivers/gpu/drm/nouveau/core/subdev/device
+ 40K	linux/drivers/gpu/drm/nouveau/core/subdev/devinit
+ 60K	linux/drivers/gpu/drm/nouveau/core/subdev/fb
+ 28K	linux/drivers/gpu/drm/nouveau/core/subdev/gpio
+ 28K	linux/drivers/gpu/drm/nouveau/core/subdev/i2c
+8.0K	linux/drivers/gpu/drm/nouveau/core/subdev/ibus
+ 32K	linux/drivers/gpu/drm/nouveau/core/subdev/instmem
+4.0K	linux/drivers/gpu/drm/nouveau/core/subdev/ltcg
+ 24K	linux/drivers/gpu/drm/nouveau/core/subdev/mc
+ 28K	linux/drivers/gpu/drm/nouveau/core/subdev/mxm
+ 44K	linux/drivers/gpu/drm/nouveau/core/subdev/therm
+ 12K	linux/drivers/gpu/drm/nouveau/core/subdev/timer
+ 56K	linux/drivers/gpu/drm/nouveau/core/subdev/vm
+660K	linux/drivers/gpu/drm/nouveau/core/subdev
+2.1M	linux/drivers/gpu/drm/nouveau/core
+3.2M	linux/drivers/gpu/drm/nouveau
+108K	linux/drivers/gpu/drm/r128
+168K	linux/drivers/gpu/drm/radeon/reg_srcs
+4.3M	linux/drivers/gpu/drm/radeon
+ 92K	linux/drivers/gpu/drm/savage
+ 92K	linux/drivers/gpu/drm/shmobile
+ 24K	linux/drivers/gpu/drm/sis
+ 12K	linux/drivers/gpu/drm/tdfx
+216K	linux/drivers/gpu/drm/ttm
+ 80K	linux/drivers/gpu/drm/udl
+200K	linux/drivers/gpu/drm/via
+556K	linux/drivers/gpu/drm/vmwgfx
+ 13M	linux/drivers/gpu/drm
+ 12K	linux/drivers/gpu/stub
+ 60K	linux/drivers/gpu/vga
+ 13M	linux/drivers/gpu
+156K	linux/drivers/hid/usbhid
+1.4M	linux/drivers/hid
+ 28K	linux/drivers/hsi/clients
+ 60K	linux/drivers/hsi
+164K	linux/drivers/hv
+164K	linux/drivers/hwmon/pmbus
+3.2M	linux/drivers/hwmon
+ 48K	linux/drivers/hwspinlock
+ 60K	linux/drivers/i2c/algos
+1.2M	linux/drivers/i2c/busses
+ 44K	linux/drivers/i2c/muxes
+1.4M	linux/drivers/i2c
+1.3M	linux/drivers/ide
+ 44K	linux/drivers/idle
+ 20K	linux/drivers/iio/accel
+ 88K	linux/drivers/iio/adc
+ 16K	linux/drivers/iio/amplifiers
+ 28K	linux/drivers/iio/common/hid-sensors
+ 36K	linux/drivers/iio/common
+184K	linux/drivers/iio/dac
+ 52K	linux/drivers/iio/frequency
+ 20K	linux/drivers/iio/gyro
+ 64K	linux/drivers/iio/light
+ 20K	linux/drivers/iio/magnetometer
+608K	linux/drivers/iio
+856K	linux/drivers/infiniband/core
+280K	linux/drivers/infiniband/hw/amso1100
+320K	linux/drivers/infiniband/hw/cxgb3
+320K	linux/drivers/infiniband/hw/cxgb4
+456K	linux/drivers/infiniband/hw/ehca
+932K	linux/drivers/infiniband/hw/ipath
+384K	linux/drivers/infiniband/hw/mlx4
+472K	linux/drivers/infiniband/hw/mthca
+636K	linux/drivers/infiniband/hw/nes
+256K	linux/drivers/infiniband/hw/ocrdma
+1.7M	linux/drivers/infiniband/hw/qib
+5.6M	linux/drivers/infiniband/hw
+216K	linux/drivers/infiniband/ulp/ipoib
+112K	linux/drivers/infiniband/ulp/iser
+ 84K	linux/drivers/infiniband/ulp/srp
+140K	linux/drivers/infiniband/ulp/srpt
+552K	linux/drivers/infiniband/ulp
+7.0M	linux/drivers/infiniband
+ 52K	linux/drivers/input/gameport
+ 72K	linux/drivers/input/joystick/iforce
+432K	linux/drivers/input/joystick
+724K	linux/drivers/input/keyboard
+620K	linux/drivers/input/misc
+536K	linux/drivers/input/mouse
+364K	linux/drivers/input/serio
+252K	linux/drivers/input/tablet
+864K	linux/drivers/input/touchscreen
+4.0M	linux/drivers/input
+588K	linux/drivers/iommu
+ 16K	linux/drivers/irqchip
+100K	linux/drivers/isdn/act2000
+200K	linux/drivers/isdn/capi
+ 52K	linux/drivers/isdn/divert
+400K	linux/drivers/isdn/gigaset
+172K	linux/drivers/isdn/hardware/avm
+1.4M	linux/drivers/isdn/hardware/eicon
+612K	linux/drivers/isdn/hardware/mISDN
+2.2M	linux/drivers/isdn/hardware
+1.6M	linux/drivers/isdn/hisax
+148K	linux/drivers/isdn/hysdn
+496K	linux/drivers/isdn/i4l
+ 64K	linux/drivers/isdn/icn
+ 48K	linux/drivers/isdn/isdnloop
+464K	linux/drivers/isdn/mISDN
+116K	linux/drivers/isdn/pcbit
+116K	linux/drivers/isdn/sc
+5.9M	linux/drivers/isdn
+580K	linux/drivers/leds
+ 40K	linux/drivers/lguest/x86
+188K	linux/drivers/lguest
+ 36K	linux/drivers/macintosh/ams
+752K	linux/drivers/macintosh
+160K	linux/drivers/md/persistent-data
+1.8M	linux/drivers/md
+120K	linux/drivers/media/common/b2c2
+144K	linux/drivers/media/common/saa7146
+140K	linux/drivers/media/common/siano
+412K	linux/drivers/media/common
+364K	linux/drivers/media/dvb-core
+3.9M	linux/drivers/media/dvb-frontends
+ 96K	linux/drivers/media/firewire
+296K	linux/drivers/media/i2c/cx25840
+ 88K	linux/drivers/media/i2c/m5mols
+188K	linux/drivers/media/i2c/smiapp
+388K	linux/drivers/media/i2c/soc_camera
+2.4M	linux/drivers/media/i2c
+ 20K	linux/drivers/media/mmc/siano
+ 28K	linux/drivers/media/mmc
+116K	linux/drivers/media/parport
+ 32K	linux/drivers/media/pci/b2c2
+568K	linux/drivers/media/pci/bt8xx
+572K	linux/drivers/media/pci/cx18
+500K	linux/drivers/media/pci/cx23885
+396K	linux/drivers/media/pci/cx25821
+488K	linux/drivers/media/pci/cx88
+ 68K	linux/drivers/media/pci/ddbridge
+ 40K	linux/drivers/media/pci/dm1105
+596K	linux/drivers/media/pci/ivtv
+244K	linux/drivers/media/pci/mantis
+ 76K	linux/drivers/media/pci/meye
+120K	linux/drivers/media/pci/ngene
+ 28K	linux/drivers/media/pci/pluto2
+ 72K	linux/drivers/media/pci/pt1
+592K	linux/drivers/media/pci/saa7134
+ 64K	linux/drivers/media/pci/saa7146
+316K	linux/drivers/media/pci/saa7164
+ 52K	linux/drivers/media/pci/sta2x11
+452K	linux/drivers/media/pci/ttpci
+336K	linux/drivers/media/pci/zoran
+5.5M	linux/drivers/media/pci
+ 44K	linux/drivers/media/platform/blackfin
+540K	linux/drivers/media/platform/davinci
+ 92K	linux/drivers/media/platform/exynos-gsc
+100K	linux/drivers/media/platform/marvell-ccic
+108K	linux/drivers/media/platform/omap
+656K	linux/drivers/media/platform/omap3isp
+312K	linux/drivers/media/platform/s5p-fimc
+ 40K	linux/drivers/media/platform/s5p-g2d
+ 68K	linux/drivers/media/platform/s5p-jpeg
+392K	linux/drivers/media/platform/s5p-mfc
+180K	linux/drivers/media/platform/s5p-tv
+388K	linux/drivers/media/platform/soc_camera
+3.4M	linux/drivers/media/platform
+ 84K	linux/drivers/media/radio/si470x
+140K	linux/drivers/media/radio/wl128x
+652K	linux/drivers/media/radio
+412K	linux/drivers/media/rc/keymaps
+1.0M	linux/drivers/media/rc
+1016K	linux/drivers/media/tuners
+128K	linux/drivers/media/usb/au0828
+ 28K	linux/drivers/media/usb/b2c2
+184K	linux/drivers/media/usb/cpia2
+676K	linux/drivers/media/usb/cx231xx
+956K	linux/drivers/media/usb/dvb-usb
+556K	linux/drivers/media/usb/dvb-usb-v2
+332K	linux/drivers/media/usb/em28xx
+116K	linux/drivers/media/usb/gspca/gl860
+204K	linux/drivers/media/usb/gspca/m5602
+112K	linux/drivers/media/usb/gspca/stv06xx
+2.4M	linux/drivers/media/usb/gspca
+ 80K	linux/drivers/media/usb/hdpvr
+528K	linux/drivers/media/usb/pvrusb2
+276K	linux/drivers/media/usb/pwc
+ 84K	linux/drivers/media/usb/s2255
+ 24K	linux/drivers/media/usb/siano
+276K	linux/drivers/media/usb/sn9c102
+ 80K	linux/drivers/media/usb/stk1160
+ 68K	linux/drivers/media/usb/stkwebcam
+120K	linux/drivers/media/usb/tlg2300
+240K	linux/drivers/media/usb/tm6000
+ 52K	linux/drivers/media/usb/ttusb-budget
+ 60K	linux/drivers/media/usb/ttusb-dec
+204K	linux/drivers/media/usb/usbvision
+276K	linux/drivers/media/usb/uvc
+ 52K	linux/drivers/media/usb/zr364xx
+7.6M	linux/drivers/media/usb
+528K	linux/drivers/media/v4l2-core
+ 27M	linux/drivers/media
+112K	linux/drivers/memory
+ 64K	linux/drivers/memstick/core
+ 88K	linux/drivers/memstick/host
+160K	linux/drivers/memstick
+496K	linux/drivers/message/fusion/lsi
+1.3M	linux/drivers/message/fusion
+312K	linux/drivers/message/i2o
+1.6M	linux/drivers/message
+1.9M	linux/drivers/mfd
+108K	linux/drivers/misc/altera-stapl
+ 36K	linux/drivers/misc/c2port
+ 76K	linux/drivers/misc/carma
+ 28K	linux/drivers/misc/cb710
+ 80K	linux/drivers/misc/eeprom
+108K	linux/drivers/misc/ibmasm
+ 64K	linux/drivers/misc/lis3lv02d
+172K	linux/drivers/misc/mei
+224K	linux/drivers/misc/sgi-gru
+304K	linux/drivers/misc/sgi-xp
+ 68K	linux/drivers/misc/ti-st
+1.8M	linux/drivers/misc
+172K	linux/drivers/mmc/card
+324K	linux/drivers/mmc/core
+1.3M	linux/drivers/mmc/host
+1.8M	linux/drivers/mmc
+304K	linux/drivers/mtd/chips
+412K	linux/drivers/mtd/devices
+ 40K	linux/drivers/mtd/lpddr
+424K	linux/drivers/mtd/maps
+120K	linux/drivers/mtd/nand/gpmi-nand
+1.3M	linux/drivers/mtd/nand
+200K	linux/drivers/mtd/onenand
+124K	linux/drivers/mtd/tests
+504K	linux/drivers/mtd/ubi
+3.7M	linux/drivers/mtd
+136K	linux/drivers/net/appletalk
+164K	linux/drivers/net/arcnet
+364K	linux/drivers/net/bonding
+112K	linux/drivers/net/caif
+ 68K	linux/drivers/net/can/c_can
+ 60K	linux/drivers/net/can/cc770
+ 52K	linux/drivers/net/can/mscan
+164K	linux/drivers/net/can/sja1000
+ 76K	linux/drivers/net/can/softing
+ 88K	linux/drivers/net/can/usb/peak_usb
+152K	linux/drivers/net/can/usb
+876K	linux/drivers/net/can
+ 52K	linux/drivers/net/cris
+ 56K	linux/drivers/net/dsa
+396K	linux/drivers/net/ethernet/3com
+588K	linux/drivers/net/ethernet/8390
+ 72K	linux/drivers/net/ethernet/adaptec
+ 60K	linux/drivers/net/ethernet/adi
+ 52K	linux/drivers/net/ethernet/aeroflex
+112K	linux/drivers/net/ethernet/alteon
+700K	linux/drivers/net/ethernet/amd
+120K	linux/drivers/net/ethernet/apple
+180K	linux/drivers/net/ethernet/atheros/atl1c
+168K	linux/drivers/net/ethernet/atheros/atl1e
+256K	linux/drivers/net/ethernet/atheros/atlx
+612K	linux/drivers/net/ethernet/atheros
+2.0M	linux/drivers/net/ethernet/broadcom/bnx2x
+3.6M	linux/drivers/net/ethernet/broadcom
+600K	linux/drivers/net/ethernet/brocade/bna
+608K	linux/drivers/net/ethernet/brocade
+108K	linux/drivers/net/ethernet/cadence
+ 64K	linux/drivers/net/ethernet/calxeda
+508K	linux/drivers/net/ethernet/chelsio/cxgb
+640K	linux/drivers/net/ethernet/chelsio/cxgb3
+492K	linux/drivers/net/ethernet/chelsio/cxgb4
+240K	linux/drivers/net/ethernet/chelsio/cxgb4vf
+1.8M	linux/drivers/net/ethernet/chelsio
+124K	linux/drivers/net/ethernet/cirrus
+268K	linux/drivers/net/ethernet/cisco/enic
+276K	linux/drivers/net/ethernet/cisco
+ 56K	linux/drivers/net/ethernet/davicom
+660K	linux/drivers/net/ethernet/dec/tulip
+732K	linux/drivers/net/ethernet/dec
+184K	linux/drivers/net/ethernet/dlink
+308K	linux/drivers/net/ethernet/emulex/benet
+316K	linux/drivers/net/ethernet/emulex
+ 96K	linux/drivers/net/ethernet/faraday
+108K	linux/drivers/net/ethernet/freescale/fs_enet
+628K	linux/drivers/net/ethernet/freescale
+112K	linux/drivers/net/ethernet/fujitsu
+128K	linux/drivers/net/ethernet/hp
+508K	linux/drivers/net/ethernet/i825xx
+192K	linux/drivers/net/ethernet/ibm/ehea
+212K	linux/drivers/net/ethernet/ibm/emac
+464K	linux/drivers/net/ethernet/ibm
+ 96K	linux/drivers/net/ethernet/icplus
+544K	linux/drivers/net/ethernet/intel/e1000
+768K	linux/drivers/net/ethernet/intel/e1000e
+640K	linux/drivers/net/ethernet/intel/igb
+164K	linux/drivers/net/ethernet/intel/igbvf
+216K	linux/drivers/net/ethernet/intel/ixgb
+1020K	linux/drivers/net/ethernet/intel/ixgbe
+192K	linux/drivers/net/ethernet/intel/ixgbevf
+3.6M	linux/drivers/net/ethernet/intel
+568K	linux/drivers/net/ethernet/marvell
+780K	linux/drivers/net/ethernet/mellanox/mlx4
+788K	linux/drivers/net/ethernet/mellanox
+368K	linux/drivers/net/ethernet/micrel
+ 68K	linux/drivers/net/ethernet/microchip
+140K	linux/drivers/net/ethernet/myricom/myri10ge
+148K	linux/drivers/net/ethernet/myricom
+288K	linux/drivers/net/ethernet/natsemi
+816K	linux/drivers/net/ethernet/neterion/vxge
+1.1M	linux/drivers/net/ethernet/neterion
+ 36K	linux/drivers/net/ethernet/nuvoton
+196K	linux/drivers/net/ethernet/nvidia
+ 52K	linux/drivers/net/ethernet/nxp
+ 52K	linux/drivers/net/ethernet/octeon
+172K	linux/drivers/net/ethernet/oki-semi/pch_gbe
+180K	linux/drivers/net/ethernet/oki-semi
+120K	linux/drivers/net/ethernet/packetengines
+ 72K	linux/drivers/net/ethernet/pasemi
+364K	linux/drivers/net/ethernet/qlogic/netxen
+372K	linux/drivers/net/ethernet/qlogic/qlcnic
+324K	linux/drivers/net/ethernet/qlogic/qlge
+1.2M	linux/drivers/net/ethernet/qlogic
+ 40K	linux/drivers/net/ethernet/racal
+ 44K	linux/drivers/net/ethernet/rdc
+352K	linux/drivers/net/ethernet/realtek
+ 92K	linux/drivers/net/ethernet/renesas
+104K	linux/drivers/net/ethernet/seeq
+1012K	linux/drivers/net/ethernet/sfc
+ 92K	linux/drivers/net/ethernet/sgi
+ 48K	linux/drivers/net/ethernet/silan
+144K	linux/drivers/net/ethernet/sis
+512K	linux/drivers/net/ethernet/smsc
+276K	linux/drivers/net/ethernet/stmicro/stmmac
+284K	linux/drivers/net/ethernet/stmicro
+1004K	linux/drivers/net/ethernet/sun
+ 92K	linux/drivers/net/ethernet/tehuti
+308K	linux/drivers/net/ethernet/ti
+132K	linux/drivers/net/ethernet/tile
+324K	linux/drivers/net/ethernet/toshiba
+ 72K	linux/drivers/net/ethernet/tundra
+212K	linux/drivers/net/ethernet/via
+ 52K	linux/drivers/net/ethernet/wiznet
+184K	linux/drivers/net/ethernet/xilinx
+ 64K	linux/drivers/net/ethernet/xircom
+ 48K	linux/drivers/net/ethernet/xscale
+ 27M	linux/drivers/net/ethernet
+248K	linux/drivers/net/fddi/skfp/h
+692K	linux/drivers/net/fddi/skfp
+872K	linux/drivers/net/fddi
+356K	linux/drivers/net/hamradio
+ 68K	linux/drivers/net/hippi
+104K	linux/drivers/net/hyperv
+ 76K	linux/drivers/net/ieee802154
+1000K	linux/drivers/net/irda
+348K	linux/drivers/net/phy
+ 44K	linux/drivers/net/plip
+264K	linux/drivers/net/ppp
+ 68K	linux/drivers/net/slip
+104K	linux/drivers/net/team
+776K	linux/drivers/net/usb
+148K	linux/drivers/net/vmxnet3
+152K	linux/drivers/net/wan/lmc
+1000K	linux/drivers/net/wan
+392K	linux/drivers/net/wimax/i2400m
+400K	linux/drivers/net/wimax
+872K	linux/drivers/net/wireless/ath/ath5k
+792K	linux/drivers/net/wireless/ath/ath6kl
+2.4M	linux/drivers/net/wireless/ath/ath9k
+420K	linux/drivers/net/wireless/ath/carl9170
+4.5M	linux/drivers/net/wireless/ath
+2.0M	linux/drivers/net/wireless/b43
+464K	linux/drivers/net/wireless/b43legacy
+520K	linux/drivers/net/wireless/brcm80211/brcmfmac
+1.4M	linux/drivers/net/wireless/brcm80211/brcmsmac/phy
+2.0M	linux/drivers/net/wireless/brcm80211/brcmsmac
+ 12K	linux/drivers/net/wireless/brcm80211/brcmutil
+ 36K	linux/drivers/net/wireless/brcm80211/include
+2.6M	linux/drivers/net/wireless/brcm80211
+552K	linux/drivers/net/wireless/hostap
+812K	linux/drivers/net/wireless/ipw2x00
+1.1M	linux/drivers/net/wireless/iwlegacy
+884K	linux/drivers/net/wireless/iwlwifi/dvm
+212K	linux/drivers/net/wireless/iwlwifi/pcie
+1.4M	linux/drivers/net/wireless/iwlwifi
+468K	linux/drivers/net/wireless/libertas
+100K	linux/drivers/net/wireless/libertas_tf
+908K	linux/drivers/net/wireless/mwifiex
+408K	linux/drivers/net/wireless/orinoco
+276K	linux/drivers/net/wireless/p54
+244K	linux/drivers/net/wireless/prism54
+1.2M	linux/drivers/net/wireless/rt2x00
+112K	linux/drivers/net/wireless/rtl818x/rtl8180
+120K	linux/drivers/net/wireless/rtl818x/rtl8187
+248K	linux/drivers/net/wireless/rtl818x
+164K	linux/drivers/net/wireless/rtlwifi/rtl8192c
+312K	linux/drivers/net/wireless/rtlwifi/rtl8192ce
+308K	linux/drivers/net/wireless/rtlwifi/rtl8192cu
+504K	linux/drivers/net/wireless/rtlwifi/rtl8192de
+360K	linux/drivers/net/wireless/rtlwifi/rtl8192se
+2.0M	linux/drivers/net/wireless/rtlwifi
+332K	linux/drivers/net/wireless/ti/wl1251
+132K	linux/drivers/net/wireless/ti/wl12xx
+120K	linux/drivers/net/wireless/ti/wl18xx
+648K	linux/drivers/net/wireless/ti/wlcore
+1.2M	linux/drivers/net/wireless/ti
+268K	linux/drivers/net/wireless/zd1211rw
+ 22M	linux/drivers/net/wireless
+ 80K	linux/drivers/net/xen-netback
+ 56M	linux/drivers/net
+108K	linux/drivers/nfc
+ 40K	linux/drivers/nubus
+164K	linux/drivers/of
+100K	linux/drivers/oprofile
+392K	linux/drivers/parisc
+400K	linux/drivers/parport
+872K	linux/drivers/pci/hotplug
+ 84K	linux/drivers/pci/pcie/aer
+172K	linux/drivers/pci/pcie
+1.7M	linux/drivers/pci
+896K	linux/drivers/pcmcia
+280K	linux/drivers/pinctrl/spear
+1.9M	linux/drivers/pinctrl
+ 16K	linux/drivers/platform/olpc
+1.2M	linux/drivers/platform/x86
+1.2M	linux/drivers/platform
+ 44K	linux/drivers/pnp/isapnp
+ 56K	linux/drivers/pnp/pnpacpi
+ 80K	linux/drivers/pnp/pnpbios
+292K	linux/drivers/pnp
+ 40K	linux/drivers/power/avs
+996K	linux/drivers/power
+ 32K	linux/drivers/pps/clients
+ 16K	linux/drivers/pps/generators
+ 88K	linux/drivers/pps
+164K	linux/drivers/ps3
+ 64K	linux/drivers/ptp
+136K	linux/drivers/pwm
+128K	linux/drivers/rapidio/devices
+ 48K	linux/drivers/rapidio/switches
+292K	linux/drivers/rapidio
+1000K	linux/drivers/regulator
+100K	linux/drivers/remoteproc
+ 40K	linux/drivers/rpmsg
+1.3M	linux/drivers/rtc
+588K	linux/drivers/s390/block
+712K	linux/drivers/s390/char
+592K	linux/drivers/s390/cio
+280K	linux/drivers/s390/crypto
+ 16K	linux/drivers/s390/kvm
+936K	linux/drivers/s390/net
+352K	linux/drivers/s390/scsi
+3.4M	linux/drivers/s390
+136K	linux/drivers/sbus/char
+140K	linux/drivers/sbus
+380K	linux/drivers/scsi/aacraid
+132K	linux/drivers/scsi/aic7xxx/aicasm
+1.6M	linux/drivers/scsi/aic7xxx
+148K	linux/drivers/scsi/aic7xxx_old
+440K	linux/drivers/scsi/aic94xx
+152K	linux/drivers/scsi/arcmsr
+312K	linux/drivers/scsi/arm
+324K	linux/drivers/scsi/be2iscsi
+1.5M	linux/drivers/scsi/bfa
+312K	linux/drivers/scsi/bnx2fc
+256K	linux/drivers/scsi/bnx2i
+ 56K	linux/drivers/scsi/cxgbi/cxgb3i
+ 60K	linux/drivers/scsi/cxgbi/cxgb4i
+212K	linux/drivers/scsi/cxgbi
+104K	linux/drivers/scsi/device_handler
+ 68K	linux/drivers/scsi/dpt
+216K	linux/drivers/scsi/fcoe
+320K	linux/drivers/scsi/fnic
+272K	linux/drivers/scsi/ibmvscsi
+784K	linux/drivers/scsi/isci
+304K	linux/drivers/scsi/libfc
+212K	linux/drivers/scsi/libsas
+2.5M	linux/drivers/scsi/lpfc
+488K	linux/drivers/scsi/megaraid
+368K	linux/drivers/scsi/mpt2sas/mpi
+1020K	linux/drivers/scsi/mpt2sas
+200K	linux/drivers/scsi/mvsas
+ 88K	linux/drivers/scsi/osd
+152K	linux/drivers/scsi/pcmcia
+300K	linux/drivers/scsi/pm8001
+1.5M	linux/drivers/scsi/qla2xxx
+680K	linux/drivers/scsi/qla4xxx
+452K	linux/drivers/scsi/sym53c8xx_2
+ 80K	linux/drivers/scsi/ufs
+ 23M	linux/drivers/scsi
+ 36K	linux/drivers/sfi
+ 32K	linux/drivers/sh/clk
+ 80K	linux/drivers/sh/intc
+ 28K	linux/drivers/sh/maple
+ 44K	linux/drivers/sh/pfc
+ 16K	linux/drivers/sh/superhyway
+212K	linux/drivers/sh
+ 32K	linux/drivers/sn
+1.1M	linux/drivers/spi
+236K	linux/drivers/ssb
+216K	linux/drivers/staging/android
+ 80K	linux/drivers/staging/asus_oled
+904K	linux/drivers/staging/bcm
+492K	linux/drivers/staging/ccg
+116K	linux/drivers/staging/ced1401/userspace
+304K	linux/drivers/staging/ced1401
+1.6M	linux/drivers/staging/comedi/drivers/addi-data
+4.6M	linux/drivers/staging/comedi/drivers
+ 12K	linux/drivers/staging/comedi/kcomedilib
+4.8M	linux/drivers/staging/comedi
+ 36K	linux/drivers/staging/cptm1217
+280K	linux/drivers/staging/crystalhd
+3.8M	linux/drivers/staging/csr
+436K	linux/drivers/staging/cxt1e1
+284K	linux/drivers/staging/dgrp
+ 52K	linux/drivers/staging/echo
+208K	linux/drivers/staging/et131x
+ 72K	linux/drivers/staging/frontier
+424K	linux/drivers/staging/ft1000/ft1000-pcmcia
+432K	linux/drivers/staging/ft1000/ft1000-usb
+880K	linux/drivers/staging/ft1000
+144K	linux/drivers/staging/gdm72xx
+304K	linux/drivers/staging/iio/accel
+364K	linux/drivers/staging/iio/adc
+ 80K	linux/drivers/staging/iio/addac
+ 68K	linux/drivers/staging/iio/cdc
+4.0K	linux/drivers/staging/iio/Documentation/dac
+8.0K	linux/drivers/staging/iio/Documentation/light
+ 96K	linux/drivers/staging/iio/Documentation
+ 84K	linux/drivers/staging/iio/frequency
+ 88K	linux/drivers/staging/iio/gyro
+ 36K	linux/drivers/staging/iio/impedance-analyzer
+ 68K	linux/drivers/staging/iio/imu
+160K	linux/drivers/staging/iio/light
+ 48K	linux/drivers/staging/iio/magnetometer
+168K	linux/drivers/staging/iio/meter
+ 44K	linux/drivers/staging/iio/resolver
+ 40K	linux/drivers/staging/iio/trigger
+1.7M	linux/drivers/staging/iio
+104K	linux/drivers/staging/imx-drm/ipu-v3
+172K	linux/drivers/staging/imx-drm
+ 36K	linux/drivers/staging/ipack/bridges
+ 48K	linux/drivers/staging/ipack/devices
+120K	linux/drivers/staging/ipack
+228K	linux/drivers/staging/keucr
+312K	linux/drivers/staging/line6
+120K	linux/drivers/staging/media/as102
+ 32K	linux/drivers/staging/media/cxd2099
+ 44K	linux/drivers/staging/media/dt3155v4l
+328K	linux/drivers/staging/media/go7007
+224K	linux/drivers/staging/media/lirc
+232K	linux/drivers/staging/media/solo6x10
+988K	linux/drivers/staging/media
+208K	linux/drivers/staging/net
+ 88K	linux/drivers/staging/nvec
+160K	linux/drivers/staging/octeon
+ 52K	linux/drivers/staging/olpc_dcon
+104K	linux/drivers/staging/omap-thermal
+264K	linux/drivers/staging/omapdrm
+276K	linux/drivers/staging/ozwpan
+ 84K	linux/drivers/staging/panel
+ 12K	linux/drivers/staging/phison
+ 20K	linux/drivers/staging/quickstart
+196K	linux/drivers/staging/ramster/ramster
+336K	linux/drivers/staging/ramster
+304K	linux/drivers/staging/rtl8187se/ieee80211
+640K	linux/drivers/staging/rtl8187se
+872K	linux/drivers/staging/rtl8192e/rtl8192e
+1.4M	linux/drivers/staging/rtl8192e
+616K	linux/drivers/staging/rtl8192u/ieee80211
+1.2M	linux/drivers/staging/rtl8192u
+1.1M	linux/drivers/staging/rtl8712
+592K	linux/drivers/staging/rts5139
+664K	linux/drivers/staging/rts_pstor
+164K	linux/drivers/staging/sbe-2t3e3
+300K	linux/drivers/staging/sep
+ 48K	linux/drivers/staging/serqt_usb2
+ 52K	linux/drivers/staging/silicom/bypasslib
+392K	linux/drivers/staging/silicom
+164K	linux/drivers/staging/slicoss
+ 64K	linux/drivers/staging/sm7xxfb
+452K	linux/drivers/staging/speakup
+ 56K	linux/drivers/staging/ste_rmi4
+372K	linux/drivers/staging/telephony
+260K	linux/drivers/staging/tidspbridge/core
+ 16K	linux/drivers/staging/tidspbridge/Documentation
+184K	linux/drivers/staging/tidspbridge/dynload
+8.0K	linux/drivers/staging/tidspbridge/gen
+ 40K	linux/drivers/staging/tidspbridge/hw
+444K	linux/drivers/staging/tidspbridge/include/dspbridge
+444K	linux/drivers/staging/tidspbridge/include
+192K	linux/drivers/staging/tidspbridge/pmgr
+336K	linux/drivers/staging/tidspbridge/rmgr
+1.5M	linux/drivers/staging/tidspbridge
+8.0K	linux/drivers/staging/usbip/userspace/doc
+ 76K	linux/drivers/staging/usbip/userspace/libsrc
+ 84K	linux/drivers/staging/usbip/userspace/src
+228K	linux/drivers/staging/usbip/userspace
+420K	linux/drivers/staging/usbip
+ 68K	linux/drivers/staging/vme/devices
+ 72K	linux/drivers/staging/vme
+1.6M	linux/drivers/staging/vt6655
+1.4M	linux/drivers/staging/vt6656
+352K	linux/drivers/staging/winbond
+ 20K	linux/drivers/staging/wlags49_h2/man
+2.7M	linux/drivers/staging/wlags49_h2
+152K	linux/drivers/staging/wlags49_h25
+532K	linux/drivers/staging/wlan-ng
+444K	linux/drivers/staging/xgifb
+ 96K	linux/drivers/staging/zcache
+ 44K	linux/drivers/staging/zram
+ 40K	linux/drivers/staging/zsmalloc
+ 35M	linux/drivers/staging
+684K	linux/drivers/target/iscsi
+ 52K	linux/drivers/target/loopback
+ 84K	linux/drivers/target/sbp
+ 72K	linux/drivers/target/tcm_fc
+1.6M	linux/drivers/target
+ 16K	linux/drivers/tc
+112K	linux/drivers/thermal
+236K	linux/drivers/tty/hvc
+116K	linux/drivers/tty/ipwireless
+328K	linux/drivers/tty/serial/8250
+ 64K	linux/drivers/tty/serial/cpm_uart
+ 92K	linux/drivers/tty/serial/jsm
+2.8M	linux/drivers/tty/serial
+288K	linux/drivers/tty/vt
+5.0M	linux/drivers/tty
+ 80K	linux/drivers/uio
+208K	linux/drivers/usb/atm
+ 88K	linux/drivers/usb/c67x00
+148K	linux/drivers/usb/chipidea
+152K	linux/drivers/usb/class
+624K	linux/drivers/usb/core
+216K	linux/drivers/usb/dwc3
+ 32K	linux/drivers/usb/early
+3.0M	linux/drivers/usb/gadget
+120K	linux/drivers/usb/host/whci
+2.6M	linux/drivers/usb/host
+ 64K	linux/drivers/usb/image
+212K	linux/drivers/usb/misc/sisusbvga
+704K	linux/drivers/usb/misc
+ 84K	linux/drivers/usb/mon
+608K	linux/drivers/usb/musb
+288K	linux/drivers/usb/otg
+ 60K	linux/drivers/usb/phy
+176K	linux/drivers/usb/renesas_usbhs
+1.7M	linux/drivers/usb/serial
+732K	linux/drivers/usb/storage
+268K	linux/drivers/usb/wusbcore
+ 12M	linux/drivers/usb
+ 60K	linux/drivers/uwb/i1480/dfu
+ 68K	linux/drivers/uwb/i1480
+420K	linux/drivers/uwb
+100K	linux/drivers/vfio/pci
+164K	linux/drivers/vfio
+148K	linux/drivers/vhost
+504K	linux/drivers/video/aty
+480K	linux/drivers/video/backlight
+1.1M	linux/drivers/video/console
+188K	linux/drivers/video/exynos
+164K	linux/drivers/video/geode
+136K	linux/drivers/video/i810
+140K	linux/drivers/video/intelfb
+ 84K	linux/drivers/video/kyro
+948K	linux/drivers/video/logo
+336K	linux/drivers/video/matrox
+ 76K	linux/drivers/video/mb862xx
+ 76K	linux/drivers/video/mbx
+188K	linux/drivers/video/msm
+176K	linux/drivers/video/nvidia
+188K	linux/drivers/video/omap
+184K	linux/drivers/video/omap2/displays
+648K	linux/drivers/video/omap2/dss
+108K	linux/drivers/video/omap2/omapfb
+968K	linux/drivers/video/omap2
+232K	linux/drivers/video/riva
+ 96K	linux/drivers/video/savage
+1000K	linux/drivers/video/sis
+ 52K	linux/drivers/video/vermilion
+440K	linux/drivers/video/via
+ 11M	linux/drivers/video
+ 32K	linux/drivers/virt
+ 96K	linux/drivers/virtio
+ 28K	linux/drivers/vlynq
+ 16K	linux/drivers/vme/boards
+212K	linux/drivers/vme/bridges
+280K	linux/drivers/vme
+104K	linux/drivers/w1/masters
+108K	linux/drivers/w1/slaves
+308K	linux/drivers/w1
+1.3M	linux/drivers/watchdog
+144K	linux/drivers/xen/xen-pciback
+124K	linux/drivers/xen/xenbus
+ 16K	linux/drivers/xen/xenfs
+632K	linux/drivers/xen
+ 64K	linux/drivers/zorro
+265M	linux/drivers
+124K	linux/firmware/3com
+412K	linux/firmware/acenic
+8.0K	linux/firmware/adaptec
+ 60K	linux/firmware/advansys
+8.0K	linux/firmware/av7110
+588K	linux/firmware/bnx2
+1.6M	linux/firmware/bnx2x
+ 68K	linux/firmware/cis
+4.0K	linux/firmware/cpia2
+ 32K	linux/firmware/cxgb3
+ 56K	linux/firmware/dabusb
+8.0K	linux/firmware/dsp56k
+ 12K	linux/firmware/e100
+140K	linux/firmware/edgeport
+252K	linux/firmware/emi26
+296K	linux/firmware/emi62
+ 12K	linux/firmware/ess
+ 24K	linux/firmware/kaweth
+184K	linux/firmware/keyspan
+ 68K	linux/firmware/keyspan_pda
+ 44K	linux/firmware/korg
+ 60K	linux/firmware/matrox
+208K	linux/firmware/myricom
+8.0K	linux/firmware/ositech
+336K	linux/firmware/qlogic
+8.0K	linux/firmware/r128
+616K	linux/firmware/radeon
+ 28K	linux/firmware/sb16
+8.0K	linux/firmware/sun
+116K	linux/firmware/tehuti
+ 40K	linux/firmware/tigon
+ 36K	linux/firmware/ttusb-budget
+8.0K	linux/firmware/vicam
+ 32K	linux/firmware/yam
+120K	linux/firmware/yamaha
+5.9M	linux/firmware
+220K	linux/fs/9p
+ 92K	linux/fs/adfs
+132K	linux/fs/affs
+424K	linux/fs/afs
+112K	linux/fs/autofs4
+152K	linux/fs/befs
+ 44K	linux/fs/bfs
+2.4M	linux/fs/btrfs
+144K	linux/fs/cachefiles
+504K	linux/fs/ceph
+1.7M	linux/fs/cifs
+128K	linux/fs/coda
+108K	linux/fs/configfs
+ 36K	linux/fs/cramfs
+ 52K	linux/fs/debugfs
+ 20K	linux/fs/devpts
+524K	linux/fs/dlm
+344K	linux/fs/ecryptfs
+ 52K	linux/fs/efs
+204K	linux/fs/exofs
+ 20K	linux/fs/exportfs
+312K	linux/fs/ext2
+564K	linux/fs/ext3
+1.2M	linux/fs/ext4
+208K	linux/fs/fat
+108K	linux/fs/freevxfs
+172K	linux/fs/fscache
+232K	linux/fs/fuse
+784K	linux/fs/gfs2
+200K	linux/fs/hfs
+340K	linux/fs/hfsplus
+ 40K	linux/fs/hostfs
+208K	linux/fs/hpfs
+ 24K	linux/fs/hppfs
+ 32K	linux/fs/hugetlbfs
+132K	linux/fs/isofs
+232K	linux/fs/jbd
+260K	linux/fs/jbd2
+632K	linux/fs/jffs2
+932K	linux/fs/jfs
+220K	linux/fs/lockd
+272K	linux/fs/logfs
+ 84K	linux/fs/minix
+220K	linux/fs/ncpfs
+ 96K	linux/fs/nfs/blocklayout
+ 68K	linux/fs/nfs/objlayout
+1.6M	linux/fs/nfs
+ 12K	linux/fs/nfs_common
+780K	linux/fs/nfsd
+632K	linux/fs/nilfs2
+3.5M	linux/fs/nls
+ 20K	linux/fs/notify/dnotify
+ 40K	linux/fs/notify/fanotify
+ 44K	linux/fs/notify/inotify
+180K	linux/fs/notify
+1.0M	linux/fs/ntfs
+252K	linux/fs/ocfs2/cluster
+440K	linux/fs/ocfs2/dlm
+ 56K	linux/fs/ocfs2/dlmfs
+2.6M	linux/fs/ocfs2
+ 64K	linux/fs/omfs
+ 16K	linux/fs/openpromfs
+392K	linux/fs/proc
+ 64K	linux/fs/pstore
+ 40K	linux/fs/qnx4
+ 52K	linux/fs/qnx6
+160K	linux/fs/quota
+ 28K	linux/fs/ramfs
+992K	linux/fs/reiserfs
+ 40K	linux/fs/romfs
+184K	linux/fs/squashfs
+112K	linux/fs/sysfs
+100K	linux/fs/sysv
+1.0M	linux/fs/ubifs
+344K	linux/fs/udf
+260K	linux/fs/ufs
+2.8M	linux/fs/xfs
+ 33M	linux/fs
+ 24K	linux/include/acpi/platform
+332K	linux/include/acpi
+ 92K	linux/include/asm-generic/bitops
+632K	linux/include/asm-generic
+4.0K	linux/include/clocksource
+ 24K	linux/include/crypto/internal
+168K	linux/include/crypto
+8.0K	linux/include/drm/i2c
+108K	linux/include/drm/ttm
+404K	linux/include/drm
+ 44K	linux/include/keys
+ 64K	linux/include/linux/amba
+ 76K	linux/include/linux/bcma
+ 16K	linux/include/linux/byteorder
+ 20K	linux/include/linux/can/platform
+ 28K	linux/include/linux/can
+136K	linux/include/linux/ceph
+4.0K	linux/include/linux/clk
+ 16K	linux/include/linux/crush
+ 28K	linux/include/linux/decompress
+8.0K	linux/include/linux/dvb
+8.0K	linux/include/linux/extcon
+4.0K	linux/include/linux/fsl
+8.0K	linux/include/linux/hdlc
+ 12K	linux/include/linux/hsi
+168K	linux/include/linux/i2c
+8.0K	linux/include/linux/iio/adc
+ 20K	linux/include/linux/iio/dac
+ 16K	linux/include/linux/iio/frequency
+120K	linux/include/linux/iio
+128K	linux/include/linux/input
+4.0K	linux/include/linux/irqchip
+ 24K	linux/include/linux/isdn
+ 36K	linux/include/linux/lockd
+ 56K	linux/include/linux/mfd/abx500
+388K	linux/include/linux/mfd/arizona
+ 32K	linux/include/linux/mfd/da9052
+ 32K	linux/include/linux/mfd/da9055
+ 32K	linux/include/linux/mfd/pcf50633
+ 16K	linux/include/linux/mfd/pm8xxx
+ 28K	linux/include/linux/mfd/samsung
+ 16K	linux/include/linux/mfd/syscon
+208K	linux/include/linux/mfd/wm831x
+128K	linux/include/linux/mfd/wm8350
+304K	linux/include/linux/mfd/wm8994
+1.9M	linux/include/linux/mfd
+ 68K	linux/include/linux/mlx4
+140K	linux/include/linux/mmc
+244K	linux/include/linux/mtd
+ 68K	linux/include/linux/netfilter/ipset
+208K	linux/include/linux/netfilter
+4.0K	linux/include/linux/netfilter_arp
+ 12K	linux/include/linux/netfilter_bridge
+4.0K	linux/include/linux/netfilter_ipv4
+4.0K	linux/include/linux/netfilter_ipv6
+4.0K	linux/include/linux/nfc
+ 16K	linux/include/linux/nfsd
+ 44K	linux/include/linux/pinctrl
+604K	linux/include/linux/platform_data
+ 68K	linux/include/linux/power
+ 36K	linux/include/linux/raid
+100K	linux/include/linux/regulator
+ 12K	linux/include/linux/rtc
+164K	linux/include/linux/spi
+116K	linux/include/linux/ssb
+200K	linux/include/linux/sunrpc
+4.0K	linux/include/linux/tc_act
+ 40K	linux/include/linux/unaligned
+392K	linux/include/linux/usb
+ 36K	linux/include/linux/uwb
+ 16K	linux/include/linux/wimax
+ 13M	linux/include/linux
+116K	linux/include/math-emu
+8.0K	linux/include/media/blackfin
+ 92K	linux/include/media/davinci
+688K	linux/include/media
+4.0K	linux/include/memory
+4.0K	linux/include/misc
+ 36K	linux/include/net/9p
+140K	linux/include/net/bluetooth
+ 76K	linux/include/net/caif
+176K	linux/include/net/irda
+ 24K	linux/include/net/iucv
+8.0K	linux/include/net/netfilter/ipv4
+ 12K	linux/include/net/netfilter/ipv6
+144K	linux/include/net/netfilter
+ 52K	linux/include/net/netns
+ 40K	linux/include/net/nfc
+ 16K	linux/include/net/phonet
+188K	linux/include/net/sctp
+ 32K	linux/include/net/tc_act
+2.3M	linux/include/net
+ 52K	linux/include/pcmcia
+4.0K	linux/include/ras
+264K	linux/include/rdma
+ 16K	linux/include/rxrpc
+100K	linux/include/scsi/fc
+624K	linux/include/scsi
+1.0M	linux/include/sound
+ 60K	linux/include/target
+364K	linux/include/trace/events
+396K	linux/include/trace
+192K	linux/include/uapi/asm-generic
+232K	linux/include/uapi/drm
+ 12K	linux/include/uapi/linux/byteorder
+ 16K	linux/include/uapi/linux/caif
+ 32K	linux/include/uapi/linux/can
+ 64K	linux/include/uapi/linux/dvb
+4.0K	linux/include/uapi/linux/hdlc
+8.0K	linux/include/uapi/linux/hsi
+ 12K	linux/include/uapi/linux/isdn
+8.0K	linux/include/uapi/linux/mmc
+ 24K	linux/include/uapi/linux/netfilter/ipset
+320K	linux/include/uapi/linux/netfilter
+ 16K	linux/include/uapi/linux/netfilter_arp
+ 84K	linux/include/uapi/linux/netfilter_bridge
+ 40K	linux/include/uapi/linux/netfilter_ipv4
+ 52K	linux/include/uapi/linux/netfilter_ipv6
+ 28K	linux/include/uapi/linux/nfsd
+4.0K	linux/include/uapi/linux/raid
+ 12K	linux/include/uapi/linux/spi
+8.0K	linux/include/uapi/linux/sunrpc
+ 32K	linux/include/uapi/linux/tc_act
+ 20K	linux/include/uapi/linux/tc_ematch
+116K	linux/include/uapi/linux/usb
+ 20K	linux/include/uapi/linux/wimax
+3.6M	linux/include/uapi/linux
+ 48K	linux/include/uapi/mtd
+4.0K	linux/include/uapi/rdma
+4.0K	linux/include/uapi/scsi/fc
+8.0K	linux/include/uapi/scsi
+4.0K	linux/include/uapi/sound
+4.0K	linux/include/uapi/video
+ 12K	linux/include/uapi/xen
+4.1M	linux/include/uapi
+588K	linux/include/video
+8.0K	linux/include/xen/interface/hvm
+ 64K	linux/include/xen/interface/io
+192K	linux/include/xen/interface
+276K	linux/include/xen
+ 25M	linux/include
+172K	linux/init
+232K	linux/ipc
+180K	linux/kernel/debug/kdb
+240K	linux/kernel/debug
+268K	linux/kernel/events
+ 48K	linux/kernel/gcov
+200K	linux/kernel/irq
+248K	linux/kernel/power
+504K	linux/kernel/sched
+244K	linux/kernel/time
+904K	linux/kernel/trace
+5.4M	linux/kernel
+ 24K	linux/lib/lzo
+144K	linux/lib/mpi
+8.0K	linux/lib/raid6/test
+ 84K	linux/lib/raid6
+ 28K	linux/lib/reed_solomon
+112K	linux/lib/xz
+104K	linux/lib/zlib_deflate
+104K	linux/lib/zlib_inflate
+2.0M	linux/lib
+2.4M	linux/mm
+ 64K	linux/net/802
+ 96K	linux/net/8021q
+172K	linux/net/9p
+100K	linux/net/appletalk
+352K	linux/net/atm
+208K	linux/net/ax25
+524K	linux/net/batman-adv
+ 48K	linux/net/bluetooth/bnep
+ 48K	linux/net/bluetooth/cmtp
+ 56K	linux/net/bluetooth/hidp
+112K	linux/net/bluetooth/rfcomm
+816K	linux/net/bluetooth
+188K	linux/net/bridge/netfilter
+444K	linux/net/bridge
+180K	linux/net/caif
+136K	linux/net/can
+ 24K	linux/net/ceph/crush
+340K	linux/net/ceph
+916K	linux/net/core
+ 64K	linux/net/dcb
+ 64K	linux/net/dccp/ccids/lib
+132K	linux/net/dccp/ccids
+464K	linux/net/dccp
+ 12K	linux/net/decnet/netfilter
+284K	linux/net/decnet
+ 28K	linux/net/dns_resolver
+ 56K	linux/net/dsa
+ 16K	linux/net/ethernet
+140K	linux/net/ieee802154
+340K	linux/net/ipv4/netfilter
+2.2M	linux/net/ipv4
+220K	linux/net/ipv6/netfilter
+1.3M	linux/net/ipv6
+ 88K	linux/net/ipx
+152K	linux/net/irda/ircomm
+116K	linux/net/irda/irlan
+136K	linux/net/irda/irnet
+972K	linux/net/irda
+124K	linux/net/iucv
+104K	linux/net/key
+208K	linux/net/l2tp
+ 60K	linux/net/lapb
+368K	linux/net/llc
+1.3M	linux/net/mac80211
+ 60K	linux/net/mac802154
+260K	linux/net/netfilter/ipset
+532K	linux/net/netfilter/ipvs
+2.2M	linux/net/netfilter
+208K	linux/net/netlabel
+ 80K	linux/net/netlink
+116K	linux/net/netrom
+ 84K	linux/net/nfc/hci
+ 72K	linux/net/nfc/llcp
+ 72K	linux/net/nfc/nci
+296K	linux/net/nfc
+172K	linux/net/openvswitch
+112K	linux/net/packet
+116K	linux/net/phonet
+608K	linux/net/rds
+ 68K	linux/net/rfkill
+132K	linux/net/rose
+336K	linux/net/rxrpc
+848K	linux/net/sched
+1.0M	linux/net/sctp
+216K	linux/net/sunrpc/auth_gss
+232K	linux/net/sunrpc/xprtrdma
+1.0M	linux/net/sunrpc
+492K	linux/net/tipc
+ 92K	linux/net/unix
+ 44K	linux/net/wanrouter
+ 88K	linux/net/wimax
+744K	linux/net/wireless
+144K	linux/net/x25
+280K	linux/net/xfrm
+ 21M	linux/net
+8.0K	linux/samples/hidraw
+8.0K	linux/samples/hw_breakpoint
+8.0K	linux/samples/kdb
+ 20K	linux/samples/kfifo
+ 16K	linux/samples/kobject
+ 16K	linux/samples/kprobes
+8.0K	linux/samples/rpmsg
+ 36K	linux/samples/seccomp
+ 16K	linux/samples/trace_events
+ 20K	linux/samples/tracepoints
+ 16K	linux/samples/uhid
+180K	linux/samples
+ 20K	linux/scripts/basic
+8.0K	linux/scripts/coccinelle/api/alloc
+ 40K	linux/scripts/coccinelle/api
+ 16K	linux/scripts/coccinelle/free
+ 16K	linux/scripts/coccinelle/iterators
+ 16K	linux/scripts/coccinelle/locks
+ 28K	linux/scripts/coccinelle/misc
+ 20K	linux/scripts/coccinelle/null
+ 12K	linux/scripts/coccinelle/tests
+148K	linux/scripts/coccinelle
+132K	linux/scripts/dtc/libfdt
+456K	linux/scripts/dtc
+216K	linux/scripts/genksyms
+ 88K	linux/scripts/kconfig/lxdialog
+664K	linux/scripts/kconfig
+4.0K	linux/scripts/ksymoops
+132K	linux/scripts/mod
+ 28K	linux/scripts/package
+ 64K	linux/scripts/rt-tester
+ 12K	linux/scripts/selinux/genheaders
+ 20K	linux/scripts/selinux/mdp
+ 44K	linux/scripts/selinux
+4.0K	linux/scripts/tracing
+2.5M	linux/scripts
+ 76K	linux/security/apparmor/include
+292K	linux/security/apparmor
+ 40K	linux/security/integrity/evm
+ 84K	linux/security/integrity/ima
+144K	linux/security/integrity
+ 48K	linux/security/keys/encrypted-keys
+304K	linux/security/keys
+ 64K	linux/security/selinux/include
+288K	linux/security/selinux/ss
+648K	linux/security/selinux
+176K	linux/security/smack
+372K	linux/security/tomoyo
+ 20K	linux/security/yama
+2.0M	linux/security
+ 88K	linux/sound/aoa/codecs
+ 36K	linux/sound/aoa/core
+ 36K	linux/sound/aoa/fabrics
+ 68K	linux/sound/aoa/soundbus/i2sbus
+ 96K	linux/sound/aoa/soundbus
+272K	linux/sound/aoa
+ 80K	linux/sound/arm
+ 60K	linux/sound/atmel
+216K	linux/sound/core/oss
+152K	linux/sound/core/seq/oss
+492K	linux/sound/core/seq
+1.3M	linux/sound/core
+ 32K	linux/sound/drivers/mpu401
+ 92K	linux/sound/drivers/opl3
+116K	linux/sound/drivers/opl4
+ 44K	linux/sound/drivers/pcsp
+128K	linux/sound/drivers/vx
+680K	linux/sound/drivers
+132K	linux/sound/firewire
+116K	linux/sound/i2c/other
+164K	linux/sound/i2c
+ 48K	linux/sound/isa/ad1816a
+ 12K	linux/sound/isa/ad1848
+ 76K	linux/sound/isa/cs423x
+ 48K	linux/sound/isa/es1688
+ 28K	linux/sound/isa/galaxy
+236K	linux/sound/isa/gus
+100K	linux/sound/isa/msnd
+ 84K	linux/sound/isa/opti9xx
+276K	linux/sound/isa/sb
+104K	linux/sound/isa/wavefront
+ 72K	linux/sound/isa/wss
+1.3M	linux/sound/isa
+116K	linux/sound/mips
+144K	linux/sound/oss/dmasound
+1.3M	linux/sound/oss
+ 44K	linux/sound/parisc
+288K	linux/sound/pci/ac97
+ 64K	linux/sound/pci/ali5451
+504K	linux/sound/pci/asihpi
+296K	linux/sound/pci/au88x0
+ 60K	linux/sound/pci/aw2
+164K	linux/sound/pci/ca0106
+ 44K	linux/sound/pci/cs46xx/imgs
+564K	linux/sound/pci/cs46xx
+ 52K	linux/sound/pci/cs5535audio
+384K	linux/sound/pci/ctxfi
+336K	linux/sound/pci/echoaudio
+544K	linux/sound/pci/emu10k1
+1.4M	linux/sound/pci/hda
+664K	linux/sound/pci/ice1712
+ 92K	linux/sound/pci/korg1212
+108K	linux/sound/pci/lola
+ 96K	linux/sound/pci/lx6464es
+168K	linux/sound/pci/mixart
+356K	linux/sound/pci/nm256
+316K	linux/sound/pci/oxygen
+204K	linux/sound/pci/pcxhr
+ 68K	linux/sound/pci/riptide
+424K	linux/sound/pci/rme9652
+164K	linux/sound/pci/trident
+ 56K	linux/sound/pci/vx222
+104K	linux/sound/pci/ymfpci
+8.7M	linux/sound/pci
+ 52K	linux/sound/pcmcia/pdaudiocf
+ 44K	linux/sound/pcmcia/vx
+104K	linux/sound/pcmcia
+284K	linux/sound/ppc
+ 44K	linux/sound/sh
+ 72K	linux/sound/soc/atmel
+ 96K	linux/sound/soc/au1x
+200K	linux/sound/soc/blackfin
+ 56K	linux/sound/soc/cirrus
+5.8M	linux/sound/soc/codecs
+132K	linux/sound/soc/davinci
+ 20K	linux/sound/soc/dwc
+292K	linux/sound/soc/fsl
+ 12K	linux/sound/soc/generic
+ 48K	linux/sound/soc/jz4740
+ 52K	linux/sound/soc/kirkwood
+ 52K	linux/sound/soc/mid-x86
+ 56K	linux/sound/soc/mxs
+ 40K	linux/sound/soc/nuc900
+260K	linux/sound/soc/omap
+264K	linux/sound/soc/pxa
+ 56K	linux/sound/soc/s6000
+388K	linux/sound/soc/samsung
+148K	linux/sound/soc/sh
+ 36K	linux/sound/soc/spear
+212K	linux/sound/soc/tegra
+ 40K	linux/sound/soc/txx9
+116K	linux/sound/soc/ux500
+8.7M	linux/sound/soc
+180K	linux/sound/sparc
+ 40K	linux/sound/spi
+144K	linux/sound/synth/emux
+156K	linux/sound/synth
+104K	linux/sound/usb/6fire
+120K	linux/sound/usb/caiaq
+ 44K	linux/sound/usb/misc
+156K	linux/sound/usb/usx2y
+916K	linux/sound/usb
+ 25M	linux/sound
+ 48K	linux/tools/firewire
+ 52K	linux/tools/hv
+8.0K	linux/tools/include/tools
+8.0K	linux/tools/include
+ 80K	linux/tools/lguest
+220K	linux/tools/lib/traceevent
+220K	linux/tools/lib
+4.0K	linux/tools/nfsd
+4.0K	linux/tools/perf/arch/arm/util
+8.0K	linux/tools/perf/arch/arm
+8.0K	linux/tools/perf/arch/powerpc/util
+ 12K	linux/tools/perf/arch/powerpc
+4.0K	linux/tools/perf/arch/s390/util
+8.0K	linux/tools/perf/arch/s390
+4.0K	linux/tools/perf/arch/sh/util
+8.0K	linux/tools/perf/arch/sh
+4.0K	linux/tools/perf/arch/sparc/util
+8.0K	linux/tools/perf/arch/sparc
+4.0K	linux/tools/perf/arch/x86/include
+ 12K	linux/tools/perf/arch/x86/util
+ 20K	linux/tools/perf/arch/x86
+ 64K	linux/tools/perf/arch
+ 56K	linux/tools/perf/bench
+ 12K	linux/tools/perf/config
+204K	linux/tools/perf/Documentation
+4.0K	linux/tools/perf/python
+ 52K	linux/tools/perf/scripts/perl/bin
+ 16K	linux/tools/perf/scripts/perl/Perf-Trace-Util/lib/Perf/Trace
+ 16K	linux/tools/perf/scripts/perl/Perf-Trace-Util/lib/Perf
+ 16K	linux/tools/perf/scripts/perl/Perf-Trace-Util/lib
+ 36K	linux/tools/perf/scripts/perl/Perf-Trace-Util
+124K	linux/tools/perf/scripts/perl
+ 72K	linux/tools/perf/scripts/python/bin
+ 20K	linux/tools/perf/scripts/python/Perf-Trace-Util/lib/Perf/Trace
+ 20K	linux/tools/perf/scripts/python/Perf-Trace-Util/lib/Perf
+ 20K	linux/tools/perf/scripts/python/Perf-Trace-Util/lib
+ 24K	linux/tools/perf/scripts/python/Perf-Trace-Util
+160K	linux/tools/perf/scripts/python
+284K	linux/tools/perf/scripts
+ 80K	linux/tools/perf/ui/browsers
+ 24K	linux/tools/perf/ui/gtk
+ 12K	linux/tools/perf/ui/stdio
+ 16K	linux/tools/perf/ui/tui
+204K	linux/tools/perf/ui
+ 48K	linux/tools/perf/util/include/asm
+ 68K	linux/tools/perf/util/include/linux
+120K	linux/tools/perf/util/include
+ 36K	linux/tools/perf/util/scripting-engines
+1.3M	linux/tools/perf/util
+2.6M	linux/tools/perf
+ 24K	linux/tools/power/acpi
+ 76K	linux/tools/power/cpupower/bench
+ 20K	linux/tools/power/cpupower/debug/i386
+8.0K	linux/tools/power/cpupower/debug/kernel
+4.0K	linux/tools/power/cpupower/debug/x86_64
+ 32K	linux/tools/power/cpupower/debug
+ 32K	linux/tools/power/cpupower/lib
+ 32K	linux/tools/power/cpupower/man
+140K	linux/tools/power/cpupower/po
+ 60K	linux/tools/power/cpupower/utils/helpers
+ 72K	linux/tools/power/cpupower/utils/idle_monitor
+188K	linux/tools/power/cpupower/utils
+524K	linux/tools/power/cpupower
+ 56K	linux/tools/power/x86/turbostat
+ 16K	linux/tools/power/x86/x86_energy_perf_policy
+ 72K	linux/tools/power/x86
+620K	linux/tools/power
+4.0K	linux/tools/scripts
+8.0K	linux/tools/testing/fault-injection
+ 24K	linux/tools/testing/ktest/examples/include
+ 48K	linux/tools/testing/ktest/examples
+180K	linux/tools/testing/ktest
+ 12K	linux/tools/testing/selftests/breakpoints
+8.0K	linux/tools/testing/selftests/cpu-hotplug
+ 16K	linux/tools/testing/selftests/epoll
+8.0K	linux/tools/testing/selftests/kcmp
+ 12K	linux/tools/testing/selftests/memory-hotplug
+ 48K	linux/tools/testing/selftests/mqueue
+ 20K	linux/tools/testing/selftests/vm
+128K	linux/tools/testing/selftests
+316K	linux/tools/testing
+ 40K	linux/tools/usb
+ 16K	linux/tools/virtio/linux
+8.0K	linux/tools/virtio/vhost_test
+ 36K	linux/tools/virtio/virtio-trace
+ 72K	linux/tools/virtio
+ 64K	linux/tools/vm
+4.1M	linux/tools
+ 36K	linux/usr
+192K	linux/virt/kvm
+192K	linux/virt
+1.2G	linux

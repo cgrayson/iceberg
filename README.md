@@ -1,5 +1,5 @@
 # Iceberg
-## Find the big directories lurking on your disk
+## Find the big directories lurking under the surface of your disk
 
 ### Introduction
 
@@ -56,3 +56,8 @@ the whole thing wrapped in the boilerplate the bash script uses:
     </div>
   </div>
 ```
+
+In the /test directory there is `du_linux.out`, a 2,700 line file containing the `du -h`
+output from a recent checkout of the Linux kernel source. There is also an Iceberg HTML
+output created from this (e.g., output of `iceberg.sh -d du_linux.out > ice_linux.html`),
+which can be used as standard of comparison for new generators.

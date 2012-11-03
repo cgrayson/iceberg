@@ -18,7 +18,7 @@
     <div class="wrapper">
       <header>
         <h1>Iceberg</h1>
-        <p>Find the big directories lurking on your disk</p>
+        <p>Find the big directories lurking under the surface of your disk</p>
         <p class="view"><a href="https://github.com/cgrayson/iceberg">View the Project on GitHub <small>cgrayson/iceberg</small></a></p>
         <ul>
           <li><a href="http://cgrayson.github.com/iceberg/iceberg.sh">Download <strong>Bash script</strong></a></li>
@@ -54,7 +54,7 @@ download it to your local PC, and pop it open in the browser of your choice.</p>
 <p>Invoke the bash script, specifying HTML output and the directory to report on, saving the
 output to a file:</p>
 
-<p><code>iceberg.sh --html ~/Movies &gt; iceberg_movies.html</code></p>
+<p><code>iceberg.sh ~/Movies &gt; iceberg_movies.html</code></p>
 </li>
 <li><p>Open the HTML file in your browser (after downloading it to your PC if necessary).
 It will look something like this:</p>
@@ -68,6 +68,26 @@ with no subdirectories cannot be expanded (those buttons are deactivated).</p></
 and go clean them up.</p></li>
 <li><p>Repeat as desired. Remember, the HTML report is a static file. If you add or delete files,
 you'll need to re-run the bash script, and refresh your browser.</p></li>
+<li><p>Options:</p>
+  <dl>
+    <dt><code>-d du_input_filename</code></dt>
+    <dd>Tells Iceberg to not run the <code>du</code> command, but instead to use the given input file.
+      Useful for development testing, or if you want to get directory-size info from a remote
+      machine without installing <code>iceberg.sh</code> on it.</dd>
+    <dt><code>-l</code></dt>
+    <dd>Mainly for development testing: when generating the HTML, this option tells Iceberg to link
+      local JavaScript and CSS, rather than the links to the latest versions on Iceberg's website
+      as it normally does.</dd>
+    <dt><code>-p</code></dt>
+    <dd>Instructs Iceberg to create plain text output, rather than HTML. May be useful for small
+      directory trees, especially on servers without web browsers handy.</dd>
+    <dt><code>-t tmp_dir</code></dt>
+    <dd>Specifies a temporary directory (the default is the current directory, aka ".") During
+      operation, Iceberg creates a temporary file for the <code>du</code> output, which may
+      be large. Note that the HTML output, which may also be large, can be placed elsewhere
+      if necessary by using the output redirect (&gt;).</dd>
+  </dl>
+</li>
 </ol>
 
 <h1>Issues</h1>
