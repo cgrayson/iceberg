@@ -39,9 +39,9 @@ loaded from the Internet, so you don't need to download them to use Iceberg.</p>
 <p>This functionality has proven useful time and time again, not only on my Mac laptop, but also on the
 various Linux machines I work with. That's why the HTML generation is done by a Bash script, it
 seemed like a good choice for lowest-common denominator in those *nix environments. Usage on
-remote servers, which you may or may not have a GUI for, is also the reason for splitting the
-report-generation part from the report-viewing part. Generate the HTML on your remote machine,
-download it to your local PC, and pop it open in the browser of your choice.</p>
+remote servers, where you may not have a GUI, is also the reason for splitting the
+report-generation part from the report-viewing part. Generate the HTML on the remote machine,
+download it locally, and pop it open in the browser of your choice.</p>
 
 <h1>Intallation & Usage</h1>
 
@@ -51,7 +51,7 @@ download it to your local PC, and pop it open in the browser of your choice.</p>
   <p><code>chmod +x iceberg.sh</code></p>
 </li>
 <li>
-<p>Invoke the Bash script, specifying HTML output and the directory to report on, saving the
+<p>Invoke the Bash script, specifying the directory to report on and saving the
 output to a file:</p>
 
 <p><code>iceberg.sh ~/Movies &gt; iceberg_movies.html</code></p>
