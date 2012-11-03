@@ -24,7 +24,7 @@
       toggle_label($(this));
       return highlight_big_folders(SIZE_BUTTONS[$('#size-buttons .btn.active').attr('id')], subfolder);
     });
-    $('.filebrowser .child').first().toggle();
+    $('#folders > .folder > button').click();
     highlight_big_folders(SIZE_BUTTONS['btn1gb']);
     return $('#loading').hide();
   });
