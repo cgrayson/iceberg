@@ -32,12 +32,12 @@
 <p>Iceberg is the updated incarnation of a surprisngly useful tool that I originally wrote in Java, which
  makes it easy to find the big directories that are wasting space on your disks.</p>
 
-<p>This version has two parts: a bash script that generates an interactive HTML disk report, and the
-JavaScript and CSS that give it its interactivity. Bootstrap and jQuery are also used, but are
-loaded from CDNs and so aren't included here.</p>
+<p>This version has two parts: a Bash script that generates an interactive HTML disk report, and the
+JavaScript and CSS that give it its interactivity. The latter, plus Bootstrap and jQuery, are
+loaded from the Internet, so you don't need to download them to use Iceberg.</p>
 
-<p>This functionality has proved useful time and time again, not only on my Mac laptop, but also on the
-various Linux machines I work with. That's why the HTML generation is done by a bash script, it
+<p>This functionality has proven useful time and time again, not only on my Mac laptop, but also on the
+various Linux machines I work with. That's why the HTML generation is done by a Bash script, it
 seemed like a good choice for lowest-common denominator in those *nix environments. Usage on
 remote servers, which you may or may not have a GUI for, is also the reason for splitting the
 report-generation part from the report-viewing part. Generate the HTML on your remote machine,
@@ -51,7 +51,7 @@ download it to your local PC, and pop it open in the browser of your choice.</p>
   <p><code>chmod +x iceberg.sh</code></p>
 </li>
 <li>
-<p>Invoke the bash script, specifying HTML output and the directory to report on, saving the
+<p>Invoke the Bash script, specifying HTML output and the directory to report on, saving the
 output to a file:</p>
 
 <p><code>iceberg.sh ~/Movies &gt; iceberg_movies.html</code></p>
@@ -69,7 +69,7 @@ with no subdirectories cannot be expanded (those buttons are deactivated).</p></
 <li><p>Find those directories with old backups, unneeded downloads, etc. that are wasting your disk space,
 and go clean them up.</p></li>
 <li><p>Repeat as desired. Remember, the HTML report is a static file. If you add or delete files,
-you'll need to re-run the bash script, and refresh your browser.</p></li>
+you'll need to re-run the Bash script, and refresh your browser.</p></li>
 <li><p>Options:</p>
   <dl>
     <dt><code>-d du_input_filename</code></dt>
