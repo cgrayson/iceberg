@@ -30,15 +30,8 @@
   });
 
   toggle_label = function(element) {
-    var folder;
-    folder = element.children(":first");
-    if (folder.hasClass("icon-folder-open")) {
-      folder.removeClass("icon-folder-open");
-      return folder.addClass("icon-folder-close");
-    } else {
-      folder.removeClass("icon-folder-close");
-      return folder.addClass("icon-folder-open");
-    }
+    element.children(":first").toggleClass('icon-folder-open');
+    return element.children(":first").toggleClass('icon-folder-close');
   };
 
   highlight_big_folders = function(size_regex, parent_el) {

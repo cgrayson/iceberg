@@ -33,14 +33,8 @@ $ ->
 
 # toggle the folder-open and folder-close icons on directory buttons
 toggle_label = (element) ->
-  folder = element.children(":first")
-
-  if(folder.hasClass("icon-folder-open"))
-    folder.removeClass("icon-folder-open")
-    folder.addClass("icon-folder-close")
-  else
-    folder.removeClass("icon-folder-close")
-    folder.addClass("icon-folder-open")
+  element.children(":first").toggleClass('icon-folder-open')
+  element.children(":first").toggleClass('icon-folder-close')
 
 
 # Highlight folders that are 'big' according to selected size button.
