@@ -2,12 +2,12 @@ $ = jQuery
 
 # regular expressions to use in finding which buttons to highlight as 'big'
 SIZE_BUTTONS = {
-  btn1mb: /[0-9][0-9]*M|.*G/
-  btn10mb: /[0-9][0-9][0-9]*M|.*G/
-  btn100mb: /[0-9][0-9][0-9]M|.*G/
-  btn1gb: /[0-9][0-9]*G/
-  btn10gb: /[0-9][0-9][0-9]*G/
-  btn100gb: /[0-9][0-9][0-9]G/
+  btn1mb: /[0-9][0-9]*M|.*G|.*T/
+  btn10mb: /[0-9][0-9][0-9]*M|.*G|.*T/
+  btn100mb: /[0-9][0-9][0-9]M|.*G|.*T/
+  btn1gb: /[0-9][0-9]*G|.*T/
+  btn10gb: /[0-9][0-9][0-9]*G|.*T/
+  btn100gb: /[0-9][0-9][0-9]G|.*T/
 }
 
 $ ->

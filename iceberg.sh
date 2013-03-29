@@ -1,9 +1,10 @@
 #
 # Iceberg
+# http://cgrayson.github.com/iceberg/
 #
 # (c) Chris Grayson
 #
-ICEBERG_VERSION=1.9.7
+ICEBERG_VERSION=1.9.8
 USAGE="$0: Usage: $0 [ -d du_input_filename | -l (use local JavaScript) | -p (plain text output) | -t tmp_dir ]"
 GEN_DATE=`date +"%m-%d-%Y"`
 
