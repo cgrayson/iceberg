@@ -4,7 +4,7 @@
 #
 # (c) Chris Grayson
 #
-ICEBERG_VERSION=1.9.8
+ICEBERG_VERSION=1.9.9
 USAGE="$0: Usage: $0 [ -d du_input_filename | -l (use local JavaScript) | -p (plain text output) | -t tmp_dir ]"
 GEN_DATE=`date +"%m-%d-%Y"`
 
