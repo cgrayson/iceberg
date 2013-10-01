@@ -96,15 +96,16 @@ you'll need to re-run the Bash script, and refresh your browser.</p></li>
 
 <ul>
 <li><strong>Windows compatibility</strong> - There is none, currently. Maybe this would work under cygwin, but I
-haven't tried that yet.</li>
+haven't tried it.</li>
 <li><strong>HTML generation speed</strong> - I've tried to make this fast, and it's come a long way from my first
 brute-force approach. But it can still take a long time on a filesystem with lots of subdirectories.
 (Note that especially large files or directories are no problem; it's the number of directories
 that matters.) For example, generating the report for the approximately 110,000 directories
 under my laptop's home directory takes about 10 minutes, and creates a 17MB HTML file.</li>
-<li><strong>HTML processing speed</strong> - I've tried to make the JavaScript controls fast, too. But for large
-report files, the rendering and processing may be slow. For example, that 17MB report for my
-laptop's home directory takes about 8 seconds to load.</li>
+<li><strong>HTML processing speed</strong> - I've gotten the controls (folder opening, threshold changes) to be pretty
+snappy. But for large report files, the initial rendering can be slow. For example, that 17MB report for my
+laptop's home directory takes 3-4 seconds to load. That just has to do with loading large files in a browser,
+whether they're Iceberg HTML output or enormous animated GIFs.</li>
 </ul>
 
 <h1>Feedback</h1>
