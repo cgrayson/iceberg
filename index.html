@@ -56,10 +56,14 @@ output to a file:</p>
 
 <p><code>iceberg.sh ~/Movies &gt; iceberg_movies.html</code></p>
 </li>
-<li><p>Open the HTML file in your browser (after downloading it to your PC if necessary).
-It will look something like this:</p>
+<li><p>Open the HTML file in your browser (after downloading it to your local machine if necessary). No need for a
+  web server, just open the file directly. You can drag the file & drop it on your browser, cmd-O in your browser to
+  open it, or on a Mac:</p>
+  <p><code>open iceberg_movies.html</code></p>
+
+<p>It will look something like this:</p>
 <p><img src="images/screenshot-movies.png" width="600" height="276" alt="Screenshot"></p>
-<p>You can also see a live, interactive <a href="http://cgrayson.github.com/iceberg/test/ice_linux.html">sample
+<p>You can see a live, interactive <a href="http://cgrayson.github.com/iceberg/test/ice_linux.html">sample
 page here</a>.</p>
 </li>
 <li><p>The page starts with directories 1GB or larger highlighted in red. Change that threshold
@@ -84,7 +88,7 @@ you'll need to re-run the bash script, and refresh your browser.</p></li>
     <dd>Instructs Iceberg to create plain text output, rather than HTML. May be useful for small
       directory trees, especially on servers without web browsers handy.</dd>
     <dt><code>-t tmp_dir</code></dt>
-    <dd>Specifies a temporary directory (the default is the current directory, aka ".") During
+    <dd>Specifies a temporary directory (the default is the current directory, aka "<code>.</code>") During
       operation, Iceberg creates a temporary file for the <code>du</code> output, which may
       be large. Note that the HTML output, which may also be large, can be placed elsewhere
       if necessary by using the output redirect (&gt;).</dd>
