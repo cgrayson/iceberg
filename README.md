@@ -14,9 +14,6 @@ brute-force approach. But it can still take a long time on a filesystem with lot
 (Note that especially large files or directories are no problem; it's the number of directories
 that matters.) For example, generating the 17MB report for my laptop's home directory takes
 about 10 minutes.
-* HTML processing speed - I've tried to make the JavaScript controls fast, too. But for large
-report files, the rendering and processing may be slow. For example, that 17MB report for my
-laptop's home directory takes about 8 seconds to load.
 
 ### Implementation
 
