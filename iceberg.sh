@@ -58,10 +58,10 @@ shift $(($OPTIND - 1))
 
 if [ -n "$1" ]
 then
-	ROOT=${1%%/}  # strip rightmost "/", if present
-	shift
+  ROOT=${1%%/}  # strip rightmost "/", if present
+  shift
 else
-	ROOT="."
+  ROOT="."
 fi
 
 if [ ! -d "$ROOT" ]
@@ -99,17 +99,17 @@ create_input_file() {
 }
 
 indent() {
-	# save up to 35% in filesize by skipping indentation in HTML output
-	if [ "$HTML" -eq 0 ]
-	then
-		i=$1
-		while [ $i -gt 0 ]
-		do
-		  echo -n "$2  "
-		  let i=$i-1
-		done
+  # save up to 35% in filesize by skipping indentation in HTML output
+  if [ "$HTML" -eq 0 ]
+  then
+    i=$1
+    while [ $i -gt 0 ]
+    do
+      echo -n "$2  "
+      let i=$i-1
+    done
   fi
-	echo $3
+  echo $3
 }
 
 # $1 - previous level number
@@ -121,27 +121,27 @@ rowprint() {
   shift 2
 
   args="$*"
-  size="${args%%[	]*}"    # get first field (i.e., trim off leftmost whitespace and following)
+  size="${args%%[  ]*}"    # get first field (i.e., trim off leftmost whitespace and following)
   filename="${args##*/}"  # get final file/dirname (i.e., trim up to & incl. rightmost "/")
 
   if [ "$HTML" -eq 1 ]
   then
     if [ "$currlevel" -gt "$prevlevel" ]
     then
-	  	indent $prevlevel "" "<div class='folder'><button class='btn btn-small enabled' ><i class='icon-folder-close'></i></button> <span class='size'>$size</span> $filename </div><div class='child'>"
-	  	let num_divs=$num_divs+1
+      indent $prevlevel "" "<div class='folder'><button class='btn btn-small enabled' ><i class='icon-folder-close'></i></button> <span class='size'>$size</span> $filename </div><div class='child'>"
+      let num_divs=$num_divs+1
     else
-	  	indent $prevlevel "" "<div class='folder'><button class='btn btn-small disabled' ><i class='icon-folder-close'></i></button> <span class='size'>$size</span> $filename </div>"
+      indent $prevlevel "" "<div class='folder'><button class='btn btn-small disabled' ><i class='icon-folder-close'></i></button> <span class='size'>$size</span> $filename </div>"
     fi
   else
-  	indent $prevlevel "|" "$*"
+    indent $prevlevel "|" "$*"
   fi
 }
 
 endrows() {
   if [ "$HTML" -eq 1 ]
   then
-  	end_prev=$1
+    end_prev=$1
     currlevel=$2
     while [ "$end_prev" -gt "$currlevel" ]
     do
@@ -153,48 +153,48 @@ endrows() {
 }
 
 dirsize() {
-	IFS="
+  IFS="
 "
-	prevrec='xxx'
-	prevlevel=-1
+  prevrec='xxx'
+  prevlevel=-1
 
   create_input_file
 
-	for rec in `cat $ICEBERG_INPUT_FILE`
-	do
-		levelstr1="${rec##*[	]}"          # get the 2nd field, from the leftmost tab to EOL
-		levelstr2="${levelstr1//[^\/]/}"   # remove all characters but the "/"s
-		level="${#levelstr2}"              # count the remaining "/"s
+  for rec in `cat $ICEBERG_INPUT_FILE`
+  do
+    levelstr1="${rec##*[  ]}"          # get the 2nd field, from the leftmost tab to EOL
+    levelstr2="${levelstr1//[^\/]/}"   # remove all characters but the "/"s
+    level="${#levelstr2}"              # count the remaining "/"s
 
-		if [ "$prevlevel" -ge 0 ]
-		then
-			rowprint $prevlevel $level $prevrec
-			
-			if [ "$level" -lt "$prevlevel" ]
-			then
-				endrows $prevlevel $level
-			fi
-		fi
+    if [ "$prevlevel" -ge 0 ]
+    then
+      rowprint $prevlevel $level $prevrec
+      
+      if [ "$level" -lt "$prevlevel" ]
+      then
+        endrows $prevlevel $level
+      fi
+    fi
 
-		prevlevel=$level
-		prevrec="$rec"
-	done
+    prevlevel=$level
+    prevrec="$rec"
+  done
 
-	level=`echo "$rec" | cut -f2 | tr -dc "/" | wc -c`
+  level=`echo "$rec" | cut -f2 | tr -dc "/" | wc -c`
 
-	if [ "$level" -lt "$prevlevel" ]
-	then
-		endrows $prevlevel $level
-	fi
+  if [ "$level" -lt "$prevlevel" ]
+  then
+    endrows $prevlevel $level
+  fi
 
-	rowprint $prevlevel $level $prevrec
+  rowprint $prevlevel $level $prevrec
 
-	while [ "$num_divs" -gt 0 ]
-	do
-		endrows 9 8
-	done
+  while [ "$num_divs" -gt 0 ]
+  do
+    endrows 9 8
+  done
 
-	rm "$ICEBERG_INPUT_FILE"
+  rm "$ICEBERG_INPUT_FILE"
 }
 
 if [ "$HTML" -eq 1 ]
