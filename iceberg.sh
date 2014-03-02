@@ -121,7 +121,7 @@ rowprint() {
   shift 2
 
   args="$*"
-  size="${args%%[  ]*}"    # get first field (i.e., trim off leftmost whitespace and following)
+  size="${args%%[	]*}"    # get first field (i.e., trim off leftmost whitespace and following)
   filename="${args##*/}"  # get final file/dirname (i.e., trim up to & incl. rightmost "/")
 
   if [ "$HTML" -eq 1 ]
@@ -162,7 +162,7 @@ dirsize() {
 
   for rec in `cat $ICEBERG_INPUT_FILE`
   do
-    levelstr1="${rec##*[  ]}"          # get the 2nd field, from the leftmost tab to EOL
+    levelstr1="${rec##*[	]}"          # get the 2nd field, from the leftmost tab to EOL
     levelstr2="${levelstr1//[^\/]/}"   # remove all characters but the "/"s
     level="${#levelstr2}"              # count the remaining "/"s
 
