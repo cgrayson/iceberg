@@ -21,7 +21,7 @@ $ ->
 
   # highlight & open folder at first level of hierarchy; highlight initial folders
   highlight_folder(get_size_setting(), $('#folders').children(':first').children('.size'))
-  $('div#folders > div.folder > button').click()
+  toggle_folder($('div#folders > div.folder > button'))
 
   $('#loading').hide()
 
@@ -39,7 +39,6 @@ toggle_folder = (element) ->
 
   toggle_label element
   highlight_big_folders(get_size_setting(), subfolder)
-  
 
 # toggle the folder-open and folder-close icons on directory buttons
 toggle_label = (element) ->

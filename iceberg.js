@@ -21,7 +21,7 @@
       return toggle_folder($(this));
     });
     highlight_folder(get_size_setting(), $('#folders').children(':first').children('.size'));
-    $('div#folders > div.folder > button').click();
+    toggle_folder($('div#folders > div.folder > button'));
     return $('#loading').hide();
   });
 

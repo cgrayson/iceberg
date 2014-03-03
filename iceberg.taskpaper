@@ -1,0 +1,1 @@
+- fix race condition where sometimes the root folder opens correctly, and sometimes it doesn't. Seen more often on Firefox, but also sometimes on Chrome. Everything's happening after document-ready (I think), so wtf. [ah-ha, document ready doesn't include reading & applying all CSS. derp!] @done
