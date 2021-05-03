@@ -1,14 +1,14 @@
 #
 # Iceberg
-# http://cgrayson.github.com/iceberg/
+# http://cgrayson.github.io/iceberg/
 #
 # (c) Chris Grayson
 #
-ICEBERG_VERSION=1.9.9
+ICEBERG_VERSION=1.9.10
 USAGE="$0: Usage: $0 [ -d du_input_filename | -l (use local JavaScript) | -p (plain text output) | -t tmp_dir ]"
 GEN_DATE=`date +"%m-%d-%Y"`
 
-CDN_URL=http://cgrayson.github.com/iceberg
+CDN_URL=http://cgrayson.github.io/iceberg
 ICEBERG_JS_FILE=iceberg.js
 ICEBERG_CSS_FILE=iceberg.css
 ICEBERG_JS=${CDN_URL}/javascripts/${ICEBERG_JS_FILE}
@@ -206,7 +206,7 @@ then
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.1.1/css/bootstrap-combined.min.css" rel="stylesheet">
   <link href="$ICEBERG_CSS" rel='stylesheet' />
-  <script src='http://code.jquery.com/jquery.min.js' type='text/javascript' charset='utf-8'></script>
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js' type='text/javascript' charset='utf-8'></script>
   <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.1.1/js/bootstrap.min.js"></script>
   <script src="$ICEBERG_JS" type='text/javascript' charset='utf-8'></script>
   <title>Iceberg: $ROOT</title>
@@ -223,7 +223,7 @@ then
     <button class="btn" id="btn100gb">100 GB</button>
   </div>
 
-  <div id="about">generated on $GEN_DATE by <a href="http://cgrayson.github.com/iceberg/">Iceberg v.${ICEBERG_VERSION}</a></div>
+  <div id="about">generated on $GEN_DATE by <a href="http://cgrayson.github.io/iceberg/">Iceberg v.${ICEBERG_VERSION}</a></div>
   <div id="loading" class="label">Loading...</div>
 
   <div id='folders'>

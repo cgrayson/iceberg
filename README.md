@@ -3,7 +3,7 @@
 
 ### Introduction
 
-For introduction and usage instructions, see the [Iceberg page](http://cgrayson.github.com/iceberg/).
+For introduction and usage instructions, see the [Iceberg page](http://cgrayson.github.io/iceberg/).
 
 ### Issues
 
@@ -56,6 +56,6 @@ the whole thing wrapped in the boilerplate the bash script uses:
 
 In the /test directory there is `du_linux.out`, a 2,700 line file containing the `du -h`
 output from a recent checkout of the Linux kernel source. There is also an Iceberg HTML
-output file, [ice_linux.html](http://cgrayson.github.com/iceberg/test/ice_linux.html)
+output file, [ice_linux.html](http://cgrayson.github.io/iceberg/test/ice_linux.html)
 created from this (e.g., output of `iceberg.sh -d du_linux.out > ice_linux.html`),
 which can be used as standard of comparison for new generators.
