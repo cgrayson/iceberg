@@ -47,8 +47,9 @@ download it locally, and pop it open in the browser of your choice.</p>
 
 <ol>
 <li><p>Download the script: <a href="iceberg.sh">iceberg.sh</a>.</p></li>
-<li><p>Make it executable:</p>
+<li><p>Make it executable and tell MacOS it's safe:</p>
   <p><code>chmod +x iceberg.sh</code></p>
+  <p><code>xattr -d com.apple.quarantine iceberg.sh</code></p>
 </li>
 <li>
 <p>Invoke the Bash script, specifying the directory to report on and saving the
@@ -115,9 +116,7 @@ whether they're Iceberg HTML output or enormous animated GIFs.</li>
 <h1>Feedback</h1>
 <p>
   Questions, problems, or suggestions? If you're on GitHub, then you can open an issue, fork, etc.
-  from the <a href="https://github.io/cgrayson/iceberg">project page there</a>. If you're a normal
-  person, your best bet is probably to contact me on Twitter at
-  <a href="https://twitter.com/cgrayson">@cgrayson</a>.
+  from the <a href="https://github.com/cgrayson/iceberg">project page there</a>.
 </p>
 
     </section>
